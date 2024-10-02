@@ -164,6 +164,7 @@ html {
 body {
   background: var(--bg-primary);
   transition: var(--transition-1);
+  cursor: none;
 }
 
 body.active { overflow: hidden; }
@@ -1346,12 +1347,38 @@ textarea.input-field {
   word-break: break-all;
 }
 
-
-#triangles-js,
-#particles-js {
+.background{
   position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  height: 100vh;
   width: 100%;
-  height: 100%;
-  min-height: 320px;
-  background-color: transparent;
+}
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Transition de 0.5 seconde */
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#preloader{
+  background: #000 url(../images/load.gif) no-repeat center;
+  background-size: 50%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#loading{
+  display: block;
+  margin: 0 auto;
+  width: 20%;
 }

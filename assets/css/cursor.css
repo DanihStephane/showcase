@@ -1,0 +1,31 @@
+
+.cursor-dot{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+.cursor-outline{
+    width: 50px;
+    height: 50px;
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+}
+
+.cursor-dot,
+.cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease; /* Animation de transformation, largeur et hauteur */
+}
+
+.square {
+    width: 15px;  /* Ajuste la taille si nécessaire */
+    height: 15px;
+    background-color: rgb(16, 70, 131); /* Changer la couleur ou toute autre propriété */
+    border-radius: 50%; /* Retirer l'arrondi pour un carré */
+}
