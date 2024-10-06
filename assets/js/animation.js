@@ -6,7 +6,7 @@ window.onscroll = () => {
         let top = window.scrollY;
         let offset = sec.offsetTop;
         let height = sec.offsetHeight;
-        let triggerOffset = 300;  // Adjust this value to trigger the animation earlier
+        let triggerOffset = 500;  // Adjust this value to trigger the animation earlier
 
         if (top >= offset - triggerOffset && top < offset + height){
             sec.classList.add('show-animate');

@@ -17,7 +17,7 @@
   content: "";
   display: block;
   width: 13rem;
-  height: 10rem;
+  height: auto; /*10rem après debogage*/
   background: url("../img/decorator.svg") no-repeat center;
   position: absolute;
   bottom: -5rem;
