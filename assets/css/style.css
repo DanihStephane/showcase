@@ -164,7 +164,6 @@ html {
 body {
   background: var(--bg-primary);
   transition: var(--transition-1);
-  cursor: none;
 }
 
 body.active { overflow: hidden; }

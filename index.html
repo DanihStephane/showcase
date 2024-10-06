@@ -28,6 +28,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/animation.css">
 </head>
 
 <body id="top" class="dark_theme">
@@ -107,7 +108,7 @@
         - #HERO
       -->
 
-      <section class="hero" id="home">
+      <section class="hero sec-1 show-animate" id="home">
 
         <figure class="hero-banner">
 
@@ -115,14 +116,18 @@
             <source srcset="./assets/images/hero-banner.png" media="(min-width: 768px)">
             <source srcset="./assets/images/hero-banner-md.png" media="(min-width: 500px)">
             <img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression"
-              class="w-100">
+              class="w-100" id="hero-banner-sm">
           </picture>
 
         </figure>
 
         <div class="hero-content">
 
-          <h2 class="h2 hero-title">Salut !<br/> Je m'appelle Danih Stephane<div style="display: flex;justify-content: center;"> <span class="auto-type"></span></div></h2> 
+          <h2 class="h2 hero-title">Salut !<br/> 
+            <span  class="animate">Je m'appelle Danih Stephane</span> 
+            <div style="display: flex;justify-content: center;"> 
+              <span class="auto-type animate"></span>
+            </div></h2> 
 
           <a href="#contact" class="btn btn-primary hover-target">Get in touch</a>
 
@@ -168,10 +173,10 @@
         - #STATS
       -->
 
-      <section class="stats" id="stats">
+      <section class="stats sec-2" id="stats">
         <ul class="stats-list">
 
-          <li>
+          <li class="animate" style="--i:0;">
             <a href="#" class="stats-card">
 
               <div class="card-icon">
@@ -187,7 +192,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="animate" style="--i:1;">
             <a href="#" class="stats-card">
 
               <div class="card-icon">
@@ -203,7 +208,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="animate" style="--i:2;">
             <a href="#" class="stats-card">
 
               <div class="card-icon">
@@ -230,39 +235,43 @@
         - #ABOUT
       -->
 
-      <section class="about" id="about">
+      <div class="about" id="about">
 
-        <figure class="about-banner">
-          <img src="./assets/images/about-banner.png" alt="A man in a alice blue shirt with a thinking expression"
-            class="w-100">
-        </figure>
+        <section class="sec-3">
+          <figure class="about-banner animate">
+            <img src="./assets/images/about-banner.png" alt="A man in a alice blue shirt with a thinking expression"
+              class="w-100">
+          </figure>
+        </section>
 
-        <div class="about-content section-content">
-
-          <p class="section-subtitle">About me</p>
-
-          <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
-
-          <p class="section-text">
-            Hi! I’m Jack Reacher, and I’m a developer who has passion for building clean web applications with intuitive
-            functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always
-            curious about
-            learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have
-            worked with
-            creative teams, which involves daily stand-ups and communications, source control, and project management.
-            <div style="display: flex;"> <span class="auto-type2"></span></div>
-            <br>
-          </p>
-
-          <div class="btn-group">
-            <button class="btn btn-secondary">Hire me</button>
-
-            <button class="btn btn-primary">Download cv</button>
+        <section class="sec-4">
+          <div class="about-content section-content"> 
+            <div class="">
+              <p class="section-subtitle">About me</p>
+  
+              <h2 class="h3 section-title animate" style="--i:0;">Need a Creative Product? I can Help You!</h2>
+  
+              <p class="section-text animate" style="--i:1;">
+                Hi! I’m Jack Reacher, and I’m a developer who has passion for building clean web applications with intuitive
+                functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always
+                curious about
+                learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have
+                worked with
+                creative teams, which involves daily stand-ups and communications, source control, and project management.
+                <div style="display: flex;"> <span class="auto-type2"></span></div>
+                <br>
+              </p>
+  
+              <div class="btn-group">
+                <button class="btn btn-secondary animate" style="--i:2;">Hire me</button>
+  
+                <button class="btn btn-primary animate" style="--i:3;">Download cv</button>
+              </div>
+            </div>
           </div>
-
-        </div>
-
-      </section>
+        </section>
+    
+      </div>
 
 
 
@@ -271,302 +280,310 @@
       <!-- 
         - #SKILLS
       -->
-
-      <section class="skills" id="skills">
-
-        <div class="skills-content section-content">
-
-          <p class="section-subtitle">My skills</p>
-
-          <h2 class="h3 section-title">What My Programming Skills Included?</h2>
-
-          <p class="section-text">
-            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
-            and time
-            with those technologies.
-            <div style="display: flex;"> <span class="auto-type3"></span></div>
-            <br>
-          </p>
-
-          <div class="skills-toggle" data-toggle-box>
-            <button class="toggle-btn active" data-toggle-btn>Skills</button>
-
-            <button class="toggle-btn" data-toggle-btn>Tools</button>
+      <div class="skills" id="skills">
+        <section class="sec-5">
+          <div class="skills-content section-content">
+  
+            <p class="section-subtitle">My skills</p>
+  
+            <h2 class="h3 section-title animate" style="--i:0;">What My Programming Skills Included?</h2>
+  
+            <p class="section-text animate" style="--i:1;">
+              I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+              and time
+              with those technologies.
+              <div style="display: flex;"> <span class="auto-type3"></span></div>
+              <br>
+            </p>
+  
+            <div class="skills-toggle animate" style="--i:2;" data-toggle-box>
+              <button class="toggle-btn active" data-toggle-btn >Skills</button>
+  
+              <button class="toggle-btn" data-toggle-btn>Tools</button>
+            </div>
+  
           </div>
+        </section>
 
-        </div>
 
-        <div class="skills-box" data-skills-box>
 
-          <ul class="skills-list">
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">HTML5</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+        <section class="sec-6">
+          <div class="skills-box animate" data-skills-box>
+  
+            <ul class="skills-list">
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">HTML5</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/html5.png" alt="HTML5 logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">CSS3</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">CSS3</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/css3.png" alt="CSS3 logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">JavaScript</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">JavaScript</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">TypeScript</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/typescript.png" alt="TypeScript logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">TypeScript</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/typescript.png" alt="TypeScript logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">jQuery</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/jquery.png" alt="jQuery logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">jQuery</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/jquery.png" alt="jQuery logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Bootstrap</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Bootstrap</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Angular</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/angular.png" alt="Angular logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Angular</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/angular.png" alt="Angular logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">React</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/react.png" alt="React logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">React</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/react.png" alt="React logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Vue</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/vue.png" alt="Vue logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Vue</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/vue.png" alt="Vue logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Firebase</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/firebase.png" alt="Firebase logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Firebase</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/firebase.png" alt="Firebase logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">PugJs</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/pugjs.png" alt="PugJs logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">PugJs</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/pugjs.png" alt="PugJs logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">SASS</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/sass.png" alt="SASS logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">SASS</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/sass.png" alt="SASS logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-          </ul>
-
-          <ul class="tools-list">
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Ajax</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/ajax.png" alt="Ajax logo">
+              </li>
+  
+            </ul>
+  
+            <ul class="tools-list">
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Ajax</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/ajax.png" alt="Ajax logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Gulp</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/gulp.png" alt="Gulp logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Gulp</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/gulp.png" alt="Gulp logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Webpack</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/webpack.png" alt="Webpack logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Webpack</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/webpack.png" alt="Webpack logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Git</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/git.png" alt="Git logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Git</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/git.png" alt="Git logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Npm</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/npm.png" alt="Npm logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Npm</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/npm.png" alt="Npm logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Command Line</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/command.png" alt="Command Line logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Command Line</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/command.png" alt="Command Line logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">VS Code</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">VS Code</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Trello</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/trello.png" alt="Trello logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Trello</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/trello.png" alt="Trello logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">ClickUp</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/clickup.png" alt="ClickUp logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">ClickUp</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/clickup.png" alt="ClickUp logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Slack</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/slack.png" alt="Slack logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Slack</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/slack.png" alt="Slack logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Photoshop</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/photoshop.png" alt="Photoshop logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Photoshop</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/photoshop.png" alt="Photoshop logo">
+                  </div>
                 </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Adobe XD</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/adobe-xd.png" alt="Adobe XD logo">
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Adobe XD</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/adobe-xd.png" alt="Adobe XD logo">
+                  </div>
                 </div>
-              </div>
-            </li>
+              </li>
+  
+            </ul>
+  
+          </div>
+        </section>
+      </div>
+      
 
-          </ul>
 
-        </div>
 
-      </section>
 
-      <section class="experience" id="experience" aria-label="Experience">
-        <h2 class="subtitle">Experience</h2>
+
+
+
+    <section class="sec-7">
+      <div class="experience" id="experience" aria-label="Experience">
+        <h2 class="subtitle">
+          <div style="display: flex;"> <span class="auto-type4"></span></div>
+        </h2>
         <div>
          
           <div class="about-content section-content">
 
             <p class="section-subtitle">About me</p>
   
-            <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
+            <h2 class="h3 section-title">Need a Creative Product? I can Help You! <span class="showRight-animate" style="--i:1;"></span></h2>
   
             <p class="section-text">
-              Hi! I’m Jack Reacher, and I’m a developer who has passion for building clean web applications with intuitive
-              functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always
-              curious about
-              learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have
-              worked with
-              creative teams, which involves daily stand-ups and communications, source control, and project management.
+              <span class="auto-type5"></span>
             </p>
   
           </div>
@@ -602,65 +619,66 @@
             </ul>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     
-      <section class="education" id="education" aria-label="Education">
-        <div class="education__container">
-          <h2 class="subtitle">Education</h2>
-          <div>
-          <div class="about-content section-content">
+    
 
-            <p class="section-subtitle">About me</p>
+      <section class="sec-8">
+        <div class="education" id="education" aria-label="Education">
+          <div class="education__container">
+            <h2 class="subtitle"><span class="auto-type6"></span></h2>
+            <div>
+            <div class="about-content section-content">
   
-            <h2 class="h3" style="color: white;">Need a Creative Product? I can Help You!</h2>
+              <p class="section-subtitle">About me</p>
+    
+              <h2 class="h3" style="color: white;">Need a Creative Product? I can Help You! <span class="showRight-animate" style="--i:1;"></span></h2>
+    
+              <p class="section-text">
+                <span class="auto-type7"></span>
+              </p>
   
-            <p class="section-text">
-              Hi! I’m Jack Reacher, and I’m a developer who has passion for building clean web applications with intuitive
-              functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always
-              curious about
-              learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have
-              worked with
-              creative teams, which involves daily stand-ups and communications, source control, and project management.
-            </p>
-
+    
+            </div>
   
-          </div>
-
-            <ul class="education__list">
-              <li class="education__item">
-                <span class="education__degree">Technologist</span>
-                <h3 class="education__course-name">Systems for Internet</h3>
-                <span class="education__educational-institution">FATEC Araras</span>
-              </li>
-              <li class="education__item">
-                <span class="education__degree">Technician</span>
-                <h3 class="education__course-name">Systems for Internet</h3>
-                <span class="education__educational-institution">ETEC Araras</span>
-              </li>
-              <li class="education__item">
-                <span class="education__degree">Technician</span>
-                <h3 class="education__course-name">Electromechanical</h3>
-                <span class="education__educational-institution">SENAI Araras</span>
-              </li>
-            </ul>
-            <div class="education__extra">
-              <div class="education__courses">
-                <h3>Intensive Courses</h3>
-                <ul>
-                  <li>UX & UI Design <span>56h</span></li>
-                  <li>Full Stack Development <span>95h</span></li>
-                </ul>
-              </div>
-              <div class="education__languages">
-                <h3>Languages</h3>
-                <ul>
-                  <li>Portuguese (pt-br) <span>/ Native</span></li>
-                  <li>English (en) <span>/ Professional Working Proficiency</span></li>
-                </ul>
+              <ul class="education__list">
+                <li class="education__item">
+                  <span class="education__degree">Technologist</span>
+                  <h3 class="education__course-name">Systems for Internet</h3>
+                  <span class="education__educational-institution">FATEC Araras</span>
+                </li>
+                <li class="education__item">
+                  <span class="education__degree">Technician</span>
+                  <h3 class="education__course-name">Systems for Internet</h3>
+                  <span class="education__educational-institution">ETEC Araras</span>
+                </li>
+                <li class="education__item">
+                  <span class="education__degree">Technician</span>
+                  <h3 class="education__course-name">Electromechanical</h3>
+                  <span class="education__educational-institution">SENAI Araras</span>
+                </li>
+              </ul>
+              <div class="education__extra">
+                <div class="education__courses">
+                  <h3>Intensive Courses</h3>
+                  <ul>
+                    <li>UX & UI Design <span>56h</span></li>
+                    <li>Full Stack Development <span>95h</span></li>
+                  </ul>
+                </div>
+                <div class="education__languages">
+                  <h3>Languages</h3>
+                  <ul>
+                    <li>Portuguese (pt-br) <span>/ Native</span></li>
+                    <li>English (en) <span>/ Professional Working Proficiency</span></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        
       </section>
 
 
@@ -674,24 +692,23 @@
       <section class="project" id="portfolio">
 
         <ul class="project-list">
-
+      
           <li>
-            <div class="project-content section-content">
+              <div class="project-content section-content">
 
-              <p class="section-subtitle">My Works</p>
-
-              <h2 class="h3 section-title">See My Works Which Will Amaze You!</h2>
-
-              <p class="section-text">
-                We develop the best quality website that serves for the long-term. Well-documented, clean, easy and
-                elegant interface
-                helps any non-technical clients.
-              </p>
-
-            </div>
+                <p class="section-subtitle">My Works</p>
+  
+                <h2 class="h3 section-title animate" style="--i:0;">See My Works Which Will Amaze You!</h2>
+  
+                <p class="section-text animate" style="--i:1;">
+                  We develop the best quality website that serves for the long-term. Well-documented, clean, easy and
+                  elegant interface
+                  helps any non-technical clients.
+                </p>
+  
+              </div>
           </li>
-
-          <li>
+          <li class="animate" style="--i:2;">
             <a href="#" class="project-card">
 
               <figure class="card-banner">
@@ -707,7 +724,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="animate" style="--i:3;">
             <a href="#" class="project-card">
 
               <figure class="card-banner">
@@ -723,7 +740,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="animate" style="--i:4;">
             <a href="#" class="project-card">
 
               <figure class="card-banner">
@@ -740,7 +757,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="animate" style="--i:5;">
             <a href="#" class="project-card">
 
               <figure class="card-banner">
@@ -757,7 +774,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="animate" style="--i:6;">
             <a href="#" class="project-card">
 
               <figure class="card-banner">
@@ -774,7 +791,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="animate" style="--i:7;">
             <a href="#" class="project-card">
 
               <figure class="card-banner">
@@ -791,7 +808,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="animate" style="--i:8;">
             <a href="#" class="project-card">
 
               <figure class="card-banner">
@@ -808,7 +825,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="animate" style="--i:9;">
             <button class="load-more">Load more work</button>
           </li>
 
@@ -824,175 +841,179 @@
         - #CONTACT
       -->
 
-      <section class="contact" id="contact">
+      <div class="contact" id="contact">
+        <section class="sec-13">
 
-        <div class="contact-content section-content">
-
-          <p class="section-subtitle">Contact</p>
-
-          <h2 class="h3 section-title">Have You Any Project? Please Drop a Message</h2>
-
-          <p class="section-text">
-            Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
-          </p>
-
-          <ul class="contact-list">
-
-            <li class="contact-list-item">
-
-              <div class="contact-item-icon">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-
-              <div class="wrapper">
-                <h3 class="h4 contact-item-title">Address:</h3>
-
-                <address class="contact-info">
-                  941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
-                </address>
-              </div>
-
-            </li>
-
-            <li class="contact-list-item">
-
-              <div class="contact-item-icon">
-                <ion-icon name="call-outline"></ion-icon>
-              </div>
-
-              <div class="wrapper">
-                <h3 class="h4 contact-item-title">Phone:</h3>
-
-                <a href="tel:01234567789" class="contact-info">(01) 234 567 789</a>
-
-                <a href="tel:09765432200" class="contact-info">(09) 765 432 200</a>
-              </div>
-
-            </li>
-
-            <li class="contact-list-item">
-
-              <div class="contact-item-icon">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-
-              <div class="wrapper">
-                <h3 class="h4 contact-item-title">Email:</h3>
-
-                <a href="mailto:info@jack.com" class="contact-info">info@jack.com</a>
-
-                <a href="mailto:support@jack.com" class="contact-info">support@jack.com</a>
-              </div>
-
-            </li>
-
-            <li>
-              <ul class="contac-social-list">
-
-                <li>
-                  <a href="#" class="contact-social-link">
-                    <div class="tooltip">Facebook</div>
-
-                    <ion-icon name="logo-facebook"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="contact-social-link">
-                    <div class="tooltip">Twitter</div>
-
-                    <ion-icon name="logo-twitter"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="contact-social-link">
-                    <div class="tooltip">Linkedin</div>
-
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="contact-social-link">
-                    <div class="tooltip">Youtube</div>
-
-                    <ion-icon name="logo-youtube"></ion-icon>
-                  </a>
-                </li>
-
-              </ul>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <form action="" class="contact-form">
-
-          <div class="form-wrapper">
-
-            <label for="name" class="form-label">Name</label>
-
-            <div class="input-wrapper">
-
-              <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
-
-              <ion-icon name="person-circle"></ion-icon>
-
-            </div>
-
+          <div class="contact-content section-content">
+            <p class="section-subtitle">Contact</p>
+  
+            <h2 class="h3 section-title animate" style="--i:0;">Have You Any Project? Please Drop a Message</h2>
+  
+            <p class="section-text animate" style="--i:1;">
+              Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+            </p>
+  
+            <ul class="contact-list">
+  
+              <li class="contact-list-item animate" style="--i:2;">
+  
+                <div class="contact-item-icon">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+  
+                <div class="wrapper">
+                  <h3 class="h4 contact-item-title">Address:</h3>
+  
+                  <address class="contact-info">
+                    941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+                  </address>
+                </div>
+  
+              </li>
+  
+              <li class="contact-list-item animate" style="--i:3;">
+  
+                <div class="contact-item-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+  
+                <div class="wrapper">
+                  <h3 class="h4 contact-item-title">Phone:</h3>
+  
+                  <a href="tel:01234567789" class="contact-info">(01) 234 567 789</a>
+  
+                  <a href="tel:09765432200" class="contact-info">(09) 765 432 200</a>
+                </div>
+  
+              </li>
+  
+              <li class="contact-list-item animate" style="--i:5;">
+  
+                <div class="contact-item-icon">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+  
+                <div class="wrapper">
+                  <h3 class="h4 contact-item-title">Email:</h3>
+  
+                  <a href="mailto:info@jack.com" class="contact-info">info@jack.com</a>
+  
+                  <a href="mailto:support@jack.com" class="contact-info">support@jack.com</a>
+                </div>
+  
+              </li>
+  
+              <li>
+                <ul class="contac-social-list">
+  
+                  <li class="animate" style="--i:6;">
+                    <a href="#" class="contact-social-link">
+                      <div class="tooltip">Facebook</div>
+  
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+  
+                  <li class="animate" style="--i:7;">
+                    <a href="#" class="contact-social-link">
+                      <div class="tooltip">Twitter</div>
+  
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+  
+                  <li class="animate" style="--i:8;">
+                    <a href="#" class="contact-social-link">
+                      <div class="tooltip">Linkedin</div>
+  
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+  
+                  <li  class="animate" style="--i:9;">
+                    <a href="#" class="contact-social-link">
+                      <div class="tooltip">Youtube</div>
+  
+                      <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                  </li>
+  
+                </ul>
+              </li>
+  
+            </ul>
+  
           </div>
-
-          <div class="form-wrapper">
-
-            <label for="email" class="form-label">Email</label>
-
-            <div class="input-wrapper">
-
-              <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
-                class="input-field">
-
-              <ion-icon name="mail"></ion-icon>
-
+        </section>
+        <section class="sec-14">
+          <form action="" class="contact-form animate" style="--i:0;">
+  
+            <div class="form-wrapper">
+  
+              <label for="name" class="form-label">Name</label>
+  
+              <div class="input-wrapper">
+  
+                <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+  
+                <ion-icon name="person-circle"></ion-icon>
+  
+              </div>
+  
             </div>
-
-          </div>
-
-          <div class="form-wrapper">
-
-            <label for="phone" class="form-label">Phone</label>
-
-            <div class="input-wrapper">
-
-              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
-
-              <ion-icon name="call"></ion-icon>
-
+  
+            <div class="form-wrapper">
+  
+              <label for="email" class="form-label">Email</label>
+  
+              <div class="input-wrapper">
+  
+                <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
+                  class="input-field">
+  
+                <ion-icon name="mail"></ion-icon>
+  
+              </div>
+  
             </div>
-
-          </div>
-
-          <div class="form-wrapper">
-
-            <label for="message" class="form-label">Message</label>
-
-            <div class="input-wrapper">
-
-              <textarea name="message" id="message" required placeholder="Write message..."
-                class="input-field"></textarea>
-
-              <ion-icon name="chatbubbles"></ion-icon>
-
+  
+            <div class="form-wrapper">
+  
+              <label for="phone" class="form-label">Phone</label>
+  
+              <div class="input-wrapper">
+  
+                <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+  
+                <ion-icon name="call"></ion-icon>
+  
+              </div>
+  
             </div>
+  
+            <div class="form-wrapper">
+  
+              <label for="message" class="form-label">Message</label>
+  
+              <div class="input-wrapper">
+  
+                <textarea name="message" id="message" required placeholder="Write message..."
+                  class="input-field"></textarea>
+  
+                <ion-icon name="chatbubbles"></ion-icon>
+  
+              </div>
+  
+            </div>
+  
+            <button type="submit" class="btn btn-primary">Send</button>
+  
+          </form>
+  
+        </section>
+      </div>
 
-          </div>
-
-          <button type="submit" class="btn btn-primary">Send</button>
-
-        </form>
-
-      </section>
+      
 
     </article>
 
@@ -1014,12 +1035,12 @@
 
       <p class="h1 logo">
         <a href="#">
-          Jack<span>.</span>
+          Danih Stephane<span>.</span>
         </a>
       </p>
 
       <p class="copyright">
-        &copy; 2022 <a href="#">codewithsadee</a>. All rights reserved
+        &copy; 2024 <a href="#">DevStorm</a>. All rights reserved
       </p>
 
     </div>
@@ -1073,6 +1094,63 @@
         backSpeed: 150,
         loop: true
     })
+    // let typed4 = new Typed(".auto-type4", {
+    //     strings: ["Experience"],
+    //     typeSpeed: 150,
+    //     backSpeed: 150,
+    //     loop: false,
+    //     showCursor: false, // Désactive le curseur
+    //     smartBackspace: true, // Effacement progressif si les mots ont des lettres en commun
+    //     fadeOut: true, // Utilise le fondu pour un effet de transition entre les mots
+    // })
+    // Fonction pour démarrer l'animation Typed.js
+
+    // Fonction pour démarrer l'animation Typed sur un élément donné
+function startTyped(element, strings, speed) {
+    let typed = new Typed(element, {
+        strings: strings,
+        typeSpeed: speed,
+        backSpeed: speed,
+        loop: false,
+        showCursor: false
+    });
+}
+
+// Crée un observer pour déclencher l'animation lorsque l'élément entre dans la vue
+let options = {
+    root: null, // null signifie que c'est basé sur le viewport
+    rootMargin: '0px',
+    threshold: 0.5 // L'animation se déclenchera quand 50% de l'élément est visible
+};
+
+// Fonction qui démarre l'animation sur plusieurs éléments avec différents contenus
+let observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Vérifie quelle classe ou élément est visible et applique l'animation correspondante
+            if (entry.target.classList.contains('auto-type4')) {
+                startTyped(".auto-type4", ["Experience"], 150);
+            } else if (entry.target.classList.contains('auto-type5')) {
+                startTyped(".auto-type5", ["Hi! I’m Jack Reacher, and I’m a developer... Hi! I’m Jack Reacher, and I’m a developer... Hi! I’m Jack Reacher, and I’m a developer... Hi! I’m Jack Reacher, and I’m a developer... Hi! I’m Jack Reacher, and I’m a developer... Hi! I’m Jack Reacher, and I’m a developer... Hi! I’m Jack Reacher, and I’m a developer... Hi! I’m Jack Reacher, and I’m a developer..."], 1);
+            } else if (entry.target.classList.contains('auto-type6')) {
+                startTyped(".auto-type6", ["Education"], 150);
+            } else if (entry.target.classList.contains('auto-type7')) {
+                startTyped(".auto-type7", [" Hi! I’m Jack Reacher, and I’m a developer... Hi! I’m Jack Reacher, and I’m a developer... Hi! I’m Jack Reacher, and I’m a developer..."], 1);
+            }
+            observer.unobserve(entry.target); // Arrête d'observer une fois l'animation lancée
+        }
+    });
+}, options);
+
+// Sélectionne tous les éléments à observer
+let targets = document.querySelectorAll('.auto-type4, .auto-type5, .auto-type6, .auto-type7');
+
+// Attache l'observer à chaque élément
+targets.forEach(target => {
+    observer.observe(target);
+});
+
+
 </script>
 <script src="./assets/js/cursor.js"></script>
 <script>
@@ -1082,9 +1160,10 @@
     setTimeout(() =>  {
       loader.classList.add('hidden');
       loader.style.zIndex = "0";
-    },1);
+    },4500);
   });
 </script>
+<script src="./assets/js/animation.js"></script>
 
 </body>
 
