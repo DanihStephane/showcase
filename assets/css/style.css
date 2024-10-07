@@ -225,7 +225,7 @@ body.active { overflow: hidden; }
   color: var(--black);
 }
 
-.btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(24, 74%, 64%); }
+.btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(229, 93%, 23%); }
 
 .section-subtitle {
   position: relative;
@@ -1380,4 +1380,11 @@ textarea.input-field {
   display: block;
   margin: 0 auto;
   width: 20%;
+}
+
+.recommandation {
+  background: var(--bg-secondary);
+  padding: 20px;
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-1);
 }
