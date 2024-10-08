@@ -124,3 +124,87 @@ window.onload = function(){
     color: '#ffffff'
   });
 }
+
+//ajout de nouvelle forme d'aniamtion
+
+const canvas = document.getElementById('particleCanvas');
+const ctx = canvas.getContext('2d');
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+const particles = [];
+const maxParticles = 150;
+const minDistance = 140; // Distance minimale pour dessiner les lignes
+
+function Particle(x, y) {
+  this.x = x;
+  this.y = y;
+  this.size = Math.random() * 10 + 5; // Taille aléatoire pour le texte                      origin 20 et 10
+  this.color = '#ffffff'; // Couleur du texte
+  this.speedX = (Math.random() - 0.5) * 4; // Vitesse aléatoire sur l'axe X
+  this.speedY = (Math.random() - 0.5) * 4; // Vitesse aléatoire sur l'axe Y
+}
+
+function initParticles() {
+  for (let i = 0; i < maxParticles; i++) {
+    const x = Math.random() * canvas.width;
+    const y = Math.random() * canvas.height;
+    particles.push(new Particle(x, y));
+  }
+}
+
+function drawLines() {
+  for (let i = 0; i < particles.length; i++) {
+    for (let j = i + 1; j < particles.length; j++) {
+      const dx = particles[i].x - particles[j].x;
+      const dy = particles[i].y - particles[j].y;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+
+      // Dessiner une ligne si la distance est inférieure à la distance minimale
+      if (distance < minDistance) {
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)'; // Couleur des lignes
+        ctx.lineWidth = 1; // Épaisseur des lignes
+        ctx.beginPath();
+        ctx.moveTo(particles[i].x, particles[i].y);
+        ctx.lineTo(particles[j].x, particles[j].y);
+        ctx.stroke();
+      }
+    }
+  }
+}
+
+function drawSymbols() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+  // Dessiner le symbole "</>"
+  particles.forEach(particle => {
+    ctx.font = `${particle.size}px Arial`; // Définir la police et la taille
+    ctx.fillStyle = particle.color; // Couleur du texte
+    ctx.fillText('</>', particle.x - particle.size / 4, particle.y + particle.size / 3); // Centrer le texte
+    // Mettre à jour la position de la particule
+    particle.x += particle.speedX;
+    particle.y += particle.speedY;
+
+    // Vérifier les bords et rebondir
+    if (particle.x < 0 || particle.x > canvas.width) {
+      particle.speedX *= -1; // Inverser la direction sur l'axe X
+    }
+    if (particle.y < 0 || particle.y > canvas.height) {
+      particle.speedY *= -1; // Inverser la direction sur l'axe Y
+    }
+  });
+
+  // Dessiner les lignes entre les particules
+  drawLines();
+}
+
+function animate() {
+  drawSymbols();
+  requestAnimationFrame(animate);
+}
+
+window.onload = function() {
+  initParticles();
+  animate();
+};
