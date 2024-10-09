@@ -1160,7 +1160,7 @@
           </div>
         </section>
         <section class="sec-14">
-          <form action="" class="contact-form animate" style="--i:0;">
+          <form action="" class="contact-form animate" style="--i:0;" id="contact-form">
   
             <div class="form-wrapper animate" style="--i:1;">
   
@@ -1168,7 +1168,7 @@
   
               <div class="input-wrapper">
   
-                <input data-translate="ex_name" type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+                <input data-translate="ex_name" type="text" name="name" id="nom" required placeholder="e.g John Doe" class="input-field">
   
                 <ion-icon name="person-circle"></ion-icon>
   
@@ -1197,7 +1197,7 @@
   
               <div class="input-wrapper">
   
-                <input data-translate="optional" type="tel" name="phone" id="phone_form" required placeholder="Phone Number" class="input-field">
+                <input data-translate="optional" type="tel" name="phone" id="telephone" required placeholder="Phone Number" class="input-field">
   
                 <ion-icon name="call"></ion-icon>
   
@@ -1320,6 +1320,9 @@
 </script>
 <script src="./assets/js/animation.js"></script>
 <script src="./assets/js/traduction.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="./assets/js/email.js"></script>
 
 </body>
 
