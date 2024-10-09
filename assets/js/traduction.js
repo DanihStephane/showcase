@@ -98,7 +98,43 @@ const translations = {
    "write_a_message": "Ecrire un message",
    "send": "Envoyer",
    
-    "proundly":"Conçu avec passion, propulsé par l'innovation"
+    "proundly":"Conçu avec passion, propulsé par l'innovation",
+
+    "recommandation_name1": "Diary Razafinjatovo · 1er",
+    "recommandation_post1": "Chef de projet / Certified Product Owner | Scrum master",
+    "recommandation_date1": "Mis en ligne le : 24 septembre 2024",
+    "recommandation_function1": "Diary était le/la manager direct(e) de Danih Stephane",
+    "recommandation_desc1": "J'ai eu le plaisir de travailler avec Danih en tant que son manager, et je peux affirmer que c'est un professionnel exceptionnel. Passionné et toujours à la recherche d'innovation, il a constamment apporté des solutions créatives à chaque projet auquel il a contribué. \n Il se distingue par son sérieux, son engagement et sa capacité à anticiper les besoins du projet tout en proposant des idées innovantes. Que ce soit pour résoudre des problèmes complexes ou pour optimiser les processus de développement, il a toujours su trouver des solutions efficaces. \n Sa passion pour le développement et son souci du détail font de lui un atout précieux pour toute équipe. \n Je le recommande vivement.",
+
+    "recommandation_name2": "ZAFIMANANGA Josio Rigonolde · 1er",
+    "recommandation_post2": "Développeur PHP (Symfony, WordPress, ...) / ReactJs",
+    "recommandation_date2": "ZAFIMANANGA travaillait avec Danih Stephane dans la même équipe",
+    "recommandation_function2": "Mis en ligne le : 23 septembre 2024",
+    "recommandation_desc2": "J'ai eu le plaisir de collaborer étroitement avec Danih qui a su démontrer une persévérance dans chaque mission qui lui a été confié. Même face à des défis et témoigne une grande détermination. \n Au sein de notre équipe chez eTech, il s'est rapidement adapté aux processus et aux outils de développement en place. Sa capacité à s'intégrer facilement dans un environnement en constante évolution est une qualité précieuse qui lui permet de contribuer efficacement aux projets collectifs. \n Danih a rapidement trouvé sa place au sein de notre équipe grâce à son excellent esprit d'équipe. Toujours prêt à collaborer et à partager ses idées, il a su apporter une énergie positive qui a renforcé la dynamique de groupe. \n Il s'intéresse constamment à l'amélioration de ses compétences, ce qui lui permet de progresser rapidement et de contribuer de manière significative à chaque projet.",
+
+    "recommandation_name3": "Njaratiana Herivola RAZAFINDRABE · 1er",
+    "recommandation_post3": "Teach lead (PHP/Symfony/Laravel) | Scrum master | Product Owner",
+    "recommandation_date3": "Mis en ligne le : 20 septembre 2024",
+    "recommandation_function3": "Njaratiana Herivola était le/la manager direct(e) de Danih Stephane",
+    "recommandation_desc3": "Danih, c'est un développeur passionné, très réactif et proactif à la fois. Il communique aussi bien avec l'équipe qu'avec nos clients. Il est aussi un bon mentor pour les stagiaires qui travaillaient dans l'équipe. La plupart du temps, il nous surprend avec des projets extra qui mettent en évidence sa passion pour l'IA. Je le recommende fortement. Il sera un bon lead développeur ;)",
+
+    "recommandation_name4": "Onintsoa Randriamiarinamanana · 1er",
+    "recommandation_post4": "IT DeveloperIT Developer",
+    "recommandation_date4": "Mis en ligne le : 19 septembre 2024",
+    "recommandation_function4": "Onintsoa travaillait avec Danih Stephane dans la même équipe",
+    "recommandation_desc4": "J'ai pu collaborer avec Danih sur plusieurs projets, et ses compétences en programmation sont remarquables. Son code est propre et optimisé. C'est un développeur compétent, je recommande fortement Danih.",
+
+    "recommandation_name5": "Philibert Hemmy Ramananjato · 1er",
+    "recommandation_post5": "Ingénieur développement logiciels",
+    "recommandation_date5": "Mis en ligne le : 19 septembre 2024",
+    "recommandation_function5": "Philibert Hemmy et Danih Stephane ont fréquenté la même école",
+    "recommandation_desc5": "Il est un excellent coéquipier, toujours soucieux de tenir ses engagements et prêt à aider quand c’est nécessaire. Nous avons souvent travaillé ensemble dans la même équipe. C'est un bénévole dévoué qui prend ses responsabilités très au sérieux. Il est patient et toujours fiable. Il a également un grand sens de l'humour, ce qui est un vrai soulagement, surtout quand les choses ne se passent pas comme prévu.",
+
+    "recommandation_name6": "Masinavalona EMIR TOLOJANAHARY · 1er",
+    "recommandation_post6": "Développeur PHP/Javascript",
+    "recommandation_date6": "Mis en ligne le : 1 octobre 2024",
+    "recommandation_function6": "Masinavalona EMIR travaillait avec Danih Stephane dans la même équipe",
+    "recommandation_desc6": "Danih s'est rapidement intégré à l'équipe de notre projet chez eTech, adoptant avec aisance nos processus et outils. Toujours à l'écoute, il fait preuve d'une grande flexibilité pour s'adapter aux besoins de l'équipe. Sa persévérance face aux défis et son engagement constant sont impressionnants, ce qui en fait un collaborateur fiable et un atout précieux. \n Doté d'un excellent esprit d'équipe, Danih apporte une énergie positive qui renforce la dynamique du groupe.  \n L'une de ses récentes initiatives a été de s'intéresser à l'évolution de l'intelligence artificielle et de l'intégrer avec aisance dans les tâches quotidiennes du développeur, optimisant ainsi notre efficacité. \n Sa curiosité et sa volonté d'apprendre lui permettent de progresser rapidement et de contribuer de manière significative à chaque projet.  \n Je le recommande vivement.",
   },
   "en": {
     "home": "Home.",
@@ -198,7 +234,44 @@ const translations = {
     "write_a_message": "Write a Message",
     "send": "Send",
     
-    "proundly":"Crafted with Passion, Powered by Innovation"
+    "proundly":"Crafted with Passion, Powered by Innovation",
+
+    "recommandation_name1": "Diary Razafinjatovo · 1st",
+    "recommandation_post1": "Project Manager / Certified Product Owner | Scrum Master",
+    "recommandation_date1": "Posted on: September 24, 2024",
+    "recommandation_function1": "Diary was Danih Stephane's direct manager",
+    "recommandation_desc1": "I had the pleasure of working with Danih as his manager, and I can affirm that he is an exceptional professional. Passionate and always seeking innovation, he constantly brought creative solutions to every project he contributed to. \n He stands out for his seriousness, commitment, and ability to anticipate project needs while proposing innovative ideas. Whether it's solving complex problems or optimizing development processes, he always found effective solutions. \n His passion for development and attention to detail make him a valuable asset to any team. \n I highly recommend him.",
+
+    "recommandation_name2": "ZAFIMANANGA Josio Rigonolde · 1st",
+    "recommandation_post2": "PHP Developer (Symfony, WordPress, ...) / ReactJs",
+    "recommandation_date2": "ZAFIMANANGA worked with Danih Stephane in the same team",
+    "recommandation_function2": "Posted on: September 23, 2024",
+    "recommandation_desc2": "I had the pleasure of closely collaborating with Danih, who demonstrated perseverance in every task assigned to him. Even in the face of challenges, he showed great determination. \n Within our team at eTech, he quickly adapted to the processes and development tools in place. His ability to easily integrate into a constantly evolving environment is a valuable quality that allows him to contribute effectively to collective projects. \n Danih quickly found his place within our team thanks to his excellent team spirit. Always ready to collaborate and share his ideas, he brought positive energy that strengthened the group dynamic. \n He is constantly interested in improving his skills, which enables him to progress rapidly and contribute significantly to each project.",
+
+    "recommandation_name3": "Njaratiana Herivola RAZAFINDRABE · 1st",
+    "recommandation_post3": "Tech Lead (PHP/Symfony/Laravel) | Scrum Master | Product Owner",
+    "recommandation_date3": "Posted on: September 20, 2024",
+    "recommandation_function3": "Njaratiana Herivola was Danih Stephane's direct manager",
+    "recommandation_desc3": "Danih is a passionate developer, very reactive and proactive at the same time. He communicates well with both the team and our clients. He is also a good mentor for the interns who worked in the team. Most of the time, he surprises us with extra projects that highlight his passion for AI. I strongly recommend him. He will make a great lead developer ;)",
+
+    "recommandation_name4": "Onintsoa Randriamiarinamanana · 1st",
+    "recommandation_post4": "IT Developer",
+    "recommandation_date4": "Posted on: September 19, 2024",
+    "recommandation_function4": "Onintsoa worked with Danih Stephane in the same team",
+    "recommandation_desc4": "I had the opportunity to collaborate with Danih on several projects, and his programming skills are remarkable. His code is clean and optimized. He is a competent developer, and I highly recommend Danih.",
+
+    "recommandation_name5": "Philibert Hemmy Ramananjato · 1st",
+    "recommandation_post5": "Software Development Engineer",
+    "recommandation_date5": "Posted on: September 19, 2024",
+    "recommandation_function5": "Philibert Hemmy and Danih Stephane attended the same school",
+    "recommandation_desc5": "He is an excellent teammate, always committed to fulfilling his obligations and ready to help when necessary. We often worked together in the same team. He is a dedicated volunteer who takes his responsibilities very seriously. He is patient and always reliable. He also has a great sense of humor, which is a real relief, especially when things don't go as planned.",
+
+    "recommandation_name6": "Masinavalona EMIR TOLOJANAHARY · 1st",
+    "recommandation_post6": "PHP/Javascript Developer",
+    "recommandation_date6": "Posted on: October 1, 2024",
+    "recommandation_function6": "Masinavalona EMIR worked with Danih Stephane in the same team",
+    "recommandation_desc6": "Danih quickly integrated into our project team at eTech, adopting our processes and tools with ease. Always attentive, he demonstrates great flexibility in adapting to the team's needs. His perseverance in the face of challenges and constant commitment are impressive, making him a reliable collaborator and a valuable asset. \n With an excellent team spirit, Danih brings positive energy that strengthens the group's dynamic. \n One of his recent initiatives was showing interest in the evolution of artificial intelligence and integrating it seamlessly into a developer's daily tasks, thus optimizing our efficiency. \n His curiosity and desire to learn allow him to progress quickly and contribute significantly to each project. \n I highly recommend him."
+
   },
   "de": {
     "home": "Startseite.",
@@ -298,7 +371,44 @@ const translations = {
     "write_a_message": "Eine Nachricht schreiben",
     "send": "Senden",
     
-    "proundly":"Mit Leidenschaft gestaltet, angetrieben von Innovation"
+    "proundly":"Mit Leidenschaft gestaltet, angetrieben von Innovation",
+
+   "recommandation_name1": "Diary Razafinjatovo · 1.",
+    "recommandation_post1": "Projektleiter / Certified Product Owner | Scrum Master",
+    "recommandation_date1": "Veröffentlicht am: 24. September 2024",
+    "recommandation_function1": "Diary war Danih Stephanes direkter Manager",
+    "recommandation_desc1": "Ich hatte das Vergnügen, mit Danih als sein Manager zusammenzuarbeiten, und ich kann bestätigen, dass er ein außergewöhnlicher Profi ist. Leidenschaftlich und stets auf der Suche nach Innovationen, brachte er ständig kreative Lösungen für jedes Projekt ein, an dem er beteiligt war. \n Er zeichnet sich durch seine Ernsthaftigkeit, sein Engagement und seine Fähigkeit aus, die Bedürfnisse des Projekts vorauszusehen und gleichzeitig innovative Ideen vorzuschlagen. Ob es darum ging, komplexe Probleme zu lösen oder die Entwicklungsprozesse zu optimieren, er fand immer effektive Lösungen. \n Seine Leidenschaft für die Entwicklung und sein Auge fürs Detail machen ihn zu einem wertvollen Mitglied in jedem Team. \n Ich empfehle ihn wärmstens.",
+
+    "recommandation_name2": "ZAFIMANANGA Josio Rigonolde · 1.",
+    "recommandation_post2": "PHP-Entwickler (Symfony, WordPress, ...) / ReactJs",
+    "recommandation_date2": "ZAFIMANANGA arbeitete mit Danih Stephane im selben Team",
+    "recommandation_function2": "Veröffentlicht am: 23. September 2024",
+    "recommandation_desc2": "Ich hatte das Vergnügen, eng mit Danih zusammenzuarbeiten, der bei jeder ihm übertragenen Aufgabe Durchhaltevermögen bewiesen hat. Selbst angesichts von Herausforderungen zeigte er große Entschlossenheit. \n Innerhalb unseres Teams bei eTech passte er sich schnell an die bestehenden Prozesse und Entwicklungstools an. Seine Fähigkeit, sich leicht in ein sich ständig wandelndes Umfeld zu integrieren, ist eine wertvolle Eigenschaft, die es ihm ermöglicht, effektiv zu kollektiven Projekten beizutragen. \n Danih fand dank seines hervorragenden Teamgeistes schnell seinen Platz in unserem Team. Immer bereit zur Zusammenarbeit und zum Austausch von Ideen, brachte er eine positive Energie ein, die die Gruppendynamik stärkte. \n Er ist ständig bestrebt, seine Fähigkeiten zu verbessern, was es ihm ermöglicht, schnell voranzukommen und bedeutende Beiträge zu jedem Projekt zu leisten.",
+
+    "recommandation_name3": "Njaratiana Herivola RAZAFINDRABE · 1.",
+    "recommandation_post3": "Tech Lead (PHP/Symfony/Laravel) | Scrum Master | Product Owner",
+    "recommandation_date3": "Veröffentlicht am: 20. September 2024",
+    "recommandation_function3": "Njaratiana Herivola war Danih Stephanes direkter Manager",
+    "recommandation_desc3": "Danih ist ein leidenschaftlicher Entwickler, sehr reaktionsschnell und proaktiv zugleich. Er kommuniziert sowohl gut mit dem Team als auch mit unseren Kunden. Er ist auch ein guter Mentor für die Praktikanten, die im Team gearbeitet haben. Meistens überrascht er uns mit zusätzlichen Projekten, die seine Leidenschaft für KI unterstreichen. Ich empfehle ihn nachdrücklich. Er wird ein großartiger Lead-Entwickler sein ;)",
+
+    "recommandation_name4": "Onintsoa Randriamiarinamanana · 1.",
+    "recommandation_post4": "IT-Entwickler",
+    "recommandation_date4": "Veröffentlicht am: 19. September 2024",
+    "recommandation_function4": "Onintsoa arbeitete mit Danih Stephane im selben Team",
+    "recommandation_desc4": "Ich hatte die Gelegenheit, mit Danih an mehreren Projekten zusammenzuarbeiten, und seine Programmierfähigkeiten sind bemerkenswert. Sein Code ist sauber und optimiert. Er ist ein kompetenter Entwickler, und ich empfehle Danih sehr.",
+
+    "recommandation_name5": "Philibert Hemmy Ramananjato · 1.",
+    "recommandation_post5": "Software-Entwicklungsingenieur",
+    "recommandation_date5": "Veröffentlicht am: 19. September 2024",
+    "recommandation_function5": "Philibert Hemmy und Danih Stephane besuchten dieselbe Schule",
+    "recommandation_desc5": "Er ist ein ausgezeichneter Teamkollege, immer bestrebt, seine Verpflichtungen zu erfüllen, und bereit zu helfen, wenn es nötig ist. Wir haben oft im selben Team zusammengearbeitet. Er ist ein engagierter Freiwilliger, der seine Verantwortung sehr ernst nimmt. Er ist geduldig und stets zuverlässig. Er hat auch einen großartigen Sinn für Humor, was eine echte Erleichterung ist, besonders wenn die Dinge nicht wie geplant laufen.",
+
+    "recommandation_name6": "Masinavalona EMIR TOLOJANAHARY · 1.",
+    "recommandation_post6": "PHP/Javascript-Entwickler",
+    "recommandation_date6": "Veröffentlicht am: 1. Oktober 2024",
+    "recommandation_function6": "Masinavalona EMIR arbeitete mit Danih Stephane im selben Team",
+    "recommandation_desc6": "Danih hat sich schnell in unser Projektteam bei eTech integriert und unsere Prozesse und Tools mit Leichtigkeit übernommen. Er ist immer aufmerksam und zeigt eine große Flexibilität, um sich an die Bedürfnisse des Teams anzupassen. Sein Durchhaltevermögen angesichts von Herausforderungen und sein ständiges Engagement sind beeindruckend, was ihn zu einem zuverlässigen Mitarbeiter und einem wertvollen Mitglied macht. \n Mit einem ausgezeichneten Teamgeist bringt Danih eine positive Energie ein, die die Dynamik der Gruppe stärkt. \n Eine seiner jüngsten Initiativen war es, sich für die Entwicklung der künstlichen Intelligenz zu interessieren und sie mühelos in die täglichen Aufgaben eines Entwicklers zu integrieren, wodurch unsere Effizienz optimiert wurde. \n Seine Neugier und sein Lernwille ermöglichen es ihm, schnell voranzukommen und bedeutende Beiträge zu jedem Projekt zu leisten. \n Ich empfehle ihn wärmstens."
+
   },
   "mg": {
     "home": "Fandraisana.",
@@ -398,7 +508,44 @@ const translations = {
     "write_a_message": "Manorata Hafatra",
     "send": "Alefaso",
     
-    "proundly":"Namorona tamin'ny fitiavana, Natao miaraka amin'ny fanavaozana"
+    "proundly":"Namorona tamin'ny fitiavana, Natao miaraka amin'ny fanavaozana",
+
+    "recommandation_name1": "Diary Razafinjatovo · 1.",
+    "recommandation_post1": "Lehiben'ny tetikasa / Certified Product Owner | Scrum Master",
+    "recommandation_date1": "Navoaka tamin'ny: 24 septambra 2024",
+    "recommandation_function1": "Diary no mpitantana mivantana an'i Danih Stephane",
+    "recommandation_desc1": "Nanana fahafinaretana niara-niasa tamin'i Danih aho amin'ny maha-mpitantana azy, ary afaka manamarina aho fa mpiasa tena miavaka izy. Manana fahalianana sy fitadiavana fanavaozana hatrany izy, ary mitondra vahaolana mamorona foana amin'ny tetikasa rehetra nandray anjara izy. \n Misongadina amin'ny fahamatorany, ny fandraisany andraikitra ary ny fahaizany maminavina ny filan'ny tetikasa izy raha mbola manolotra hevitra manavao. Na amin'ny famahana olana sarotra na amin'ny fanatsarana ny fizotran'ny fampandrosoana, dia mahita vahaolana mahomby hatrany izy. \n Ny hafanam-pony amin'ny fampandrosoana sy ny fitiavany ny antsipiriany dia mahatonga azy ho harena sarobidy ho an'ny ekipa rehetra. \n Manoro azy aho amin'ny fo rehetra.",
+
+    "recommandation_name2": "ZAFIMANANGA Josio Rigonolde · 1.",
+    "recommandation_post2": "Mpanamboatra PHP (Symfony, WordPress, ...) / ReactJs",
+    "recommandation_date2": "ZAFIMANANGA niara-niasa tamin'i Danih Stephane tao amin'ny ekipa iray",
+    "recommandation_function2": "Navoaka tamin'ny: 23 septambra 2024",
+    "recommandation_desc2": "Nahafinaritra ny niara-niasa akaiky tamin'i Danih izay naneho faharetana tamin'ny asa rehetra napetraka taminy. Na dia teo aza ny fanamby, dia nasehony hatrany ny fahavononana lehibe. \n Tao amin'ny ekipanay tao eTech, dia nanaraka haingana ny dingana sy ny fitaovana fampandrosoana napetraka izy. Ny fahaizany mifanaraka mora amin'ny tontolo miovaova dia toetra sarobidy izay mamela azy handray anjara amim-pahombiazana amin'ny tetikasa iombonana. \n Nandray ny toerany haingana tao anatin'ny ekipanay i Danih noho ny fanahiny tsara amin'ny fiaraha-miasa. Vonona hatrany hifanampy sy hizara ny heviny, dia nahatonga fiakarana tsara ho an'ny dinamikan'ny ekipa izy. \n Liana hatrany amin'ny fanatsarana ny fahaizany izy, izay mamela azy hivoatra haingana ary handray anjara lehibe amin'ny tetikasa tsirairay.",
+
+    "recommandation_name3": "Njaratiana Herivola RAZAFINDRABE · 1.",
+    "recommandation_post3": "Tech Lead (PHP/Symfony/Laravel) | Scrum Master | Product Owner",
+    "recommandation_date3": "Navoaka tamin'ny: 20 septambra 2024",
+    "recommandation_function3": "Njaratiana Herivola no mpitantana mivantana an'i Danih Stephane",
+    "recommandation_desc3": "Danih dia mpamorona manana hafanam-po, tena mihetsiketsika ary mihetsika mialoha. Miresaka tsara amin'ny ekipa izy ary koa amin'ny mpanjifanay. Izy koa dia mpanolo-tsaina tsara ho an'ireo mpianatra izay niasa tao amin'ny ekipa. Matetika izy no mampitolagaga anay amin'ny tetikasa fanampiny izay mampiseho ny fitiavany ny AI. Manoro azy tanteraka aho. Ho lasa mpitarika mpamorona tsara izy ;)",
+
+    "recommandation_name4": "Onintsoa Randriamiarinamanana · 1.",
+    "recommandation_post4": "Mpanamboatra IT",
+    "recommandation_date4": "Navoaka tamin'ny: 19 septambra 2024",
+    "recommandation_function4": "Onintsoa niara-niasa tamin'i Danih Stephane tao amin'ny ekipa iray",
+    "recommandation_desc4": "Nifandray tamin'i Danih tamin'ny tetikasa maro aho, ary tena miavaka ny fahaizany manamboatra programa. Madio sy voaomana tsara ny fehezam-potoana izay noforoniny. Mpanamboatra mahay izy, ary manoro azy aho tsy misy fisalasalana.",
+
+    "recommandation_name5": "Philibert Hemmy Ramananjato · 1.",
+    "recommandation_post5": "Injeniera amin'ny fampandrosoana rindrambaiko",
+    "recommandation_date5": "Navoaka tamin'ny: 19 septambra 2024",
+    "recommandation_function5": "Philibert Hemmy sy Danih Stephane dia niara-nianatra tany amin'ny sekoly iray",
+    "recommandation_desc5": "Izy dia mpiara-miasa tsara, izay miezaka hatrany hanatanteraka ny adidy sy vonona hanampy raha ilaina. Niasa tao anatin'ny ekipa iray matetika izahay. Izy dia mpanolo-tena tena matotra ary mandray ny andraikiny am-pahamalinana. Fatra-paharetana izy ary azo ianteherana hatrany. Manana fahaizana mampiala voly koa izy, izay tena ilaina indrindra rehefa tsy mandeha tsara araka ny efa nampoizina ny zavatra sasany.",
+
+    "recommandation_name6": "Masinavalona EMIR TOLOJANAHARY · 1.",
+    "recommandation_post6": "Mpanamboatra PHP/Javascript",
+    "recommandation_date6": "Navoaka tamin'ny: 1 oktobra 2024",
+    "recommandation_function6": "Masinavalona EMIR niara-niasa tamin'i Danih Stephane tao amin'ny ekipa iray",
+    "recommandation_desc6": "Niditra haingana tao anatin'ny ekipanay tao amin'ny tetikasa tao eTech i Danih, nanaraka mora ny fizotrany sy ny fitaovana nampiasaina. Mpitily hatrany izy, mampiseho fahaizana mifanampy lehibe mba hanaraka ny filan'ny ekipa. Tena mahatalanjona ny faharetany sy ny fahavononany, izay mahatonga azy ho mpiara-miasa azo itokisana sy tena sarobidy. \n Manana fanahy fiaraha-miasa tsara izy ary mitondra hery tsara izay manamafy ny dinamikan'ny ekipa. \n Ny iray amin'ireo hevitra vao haingana nentiny dia ny fahalianany amin'ny fivoaran'ny faharanitan-tsaina artifisialy sy ny fampidirany izany mora ao amin'ny asa andavanandro ataon'ny mpamorona, ka manatsara ny fahombiazantsika. \n Ny fahalianany sy ny faniriany hianatra dia mamela azy hivoatra haingana sy handray anjara lehibe amin'ny tetikasa tsirairay. \n Manoro azy aho amin'ny fo manontolo."
+
   }
 };
 
@@ -444,6 +591,7 @@ function changeFlag(lang) {
 
     const slash = document.createElement('span');
     slash.innerText = ' / ';  // Ajouter un slash entre les drapeaux
+    slash.id = 'slash';  // Ajout de l'ID
 
     const ukFlag = document.createElement('img');
     ukFlag.src = "./assets/img/Flag_of_the_United_Kingdom.svg";

@@ -1,7 +1,6 @@
 let sections = document.querySelectorAll('section');
 
 window.onscroll = () => {
-    console.log('scroll');
     sections.forEach(sec => {
         let top = window.scrollY;
         let offset = sec.offsetTop;

@@ -79,12 +79,15 @@ themeToggleBtn.addEventListener("click", function () {
   const cursorDot = document.getElementById("cursor-dot");
   const cursorOutline = document.getElementById("cursor-outline");
 
+  const slashElement = document.getElementById("slash");
+
   if (themeToggleBtn.classList.contains("active")) {
     document.body.classList.remove("dark_theme");
     document.body.classList.add("light_theme");
 
     cursorDot.style.backgroundColor = "black";
     cursorOutline.style.border = "2px solid hsla(0, 0%, 0%, 0.5)";
+    slashElement.style.color = "black";
 
     localStorage.setItem("theme", "light_theme");
   } else {
@@ -93,6 +96,7 @@ themeToggleBtn.addEventListener("click", function () {
 
     cursorDot.style.backgroundColor = "white";
     cursorOutline.style.border = "2px solid hsla(0, 0%, 100%, 0.5)";
+    slashElement.style.color = "white";
 
     localStorage.setItem("theme", "dark_theme");
   }
@@ -203,8 +207,3 @@ function animate() {
   drawSymbols();
   requestAnimationFrame(animate);
 }
-
-window.onload = function() {
-  initParticles();
-  animate();
-};
