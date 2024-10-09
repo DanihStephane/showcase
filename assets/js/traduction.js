@@ -90,11 +90,11 @@ const translations = {
    "contact_desc": "Pour toute assistance, n'hésitez pas à me contacter et à me faire savoir comment je peux vous aider. Remplissez le formulaire, et je vous répondrai dans les plus brefs délais.",
    "address": "Adresse:",
    "phone": "Téléphone:",
-   "phone_form": "Téléphone",
+   "phone_form": "Téléphone (Optionelle)",
    "name": "Nom",
    "ex_name": "ex. Jules Dupont",
    "ex_email": "ex. jules.dupont@gmail.com",
-   "optional": "Numéro de téléphone (Optionelle)",
+   "optional": "Numéro de téléphone",
    "write_a_message": "Ecrire un message",
    "send": "Envoyer",
    
@@ -190,15 +190,215 @@ const translations = {
     "contact_desc": "For any assistance, don't hesitate to contact me and let me know how I can help you. Fill out the form, and I will respond to you as soon as possible.",
     "address": "Address:",
     "phone": "Phone:",
-    "phone_form": "Phone",
+    "phone_form": "Phone (Optional)",
     "name": "Name",
     "ex_name": "ex. John Doe",
     "ex_email": "ex. john.doe@gmail.com",
-    "optional": "Phone Number (Optional)",
+    "optional": "Phone Number",
     "write_a_message": "Write a Message",
     "send": "Send",
     
     "proundly":"Crafted with Passion, Powered by Innovation"
+  },
+  "de": {
+    "home": "Startseite.",
+    "about": "Über.",
+    "skills": "Fähigkeiten.",
+    "portfolio": "Portfolio.",
+    "contact": "Kontakt.",
+
+    "yo": "Hallo!",
+    "presentation": "Mein Name ist Danih Stephane",
+    "engineer": "Ingenieur",
+    "developer": "Entwickler",
+    "coder": "Programmierer",
+    "get_in_touch": "Kontakt aufnehmen",
+
+    "years_of_experience": "Jahre Erfahrung",
+    "completed_projects": "Abgeschlossene Projekte",
+    "happy_clients": "Zufriedene Kunden",
+
+    "about_me": "Über mich",
+    "title_introduction": "Innovative Anwendungslösung? Lassen Sie uns Ihre Ideen verwirklichen!",
+    "introduction": "Hallo 👨‍💻, ich bin Danih Stéphane Rakotoarison Harilanto, ein erfahrener Anwendungsentwickler. Begeistert von Informationstechnologie, habe ich an verschiedenen Projekten gearbeitet, einschließlich SaaS-Lösungen und Cloud-Diensten. Meine Expertise umfasst Full-Stack-Entwicklung und die Zusammenarbeit mit Kreativteams, um Ideen in konkrete Lösungen zu verwandeln. Ob allein oder im Team, konzentriere ich mich auf effektives Projektmanagement, Agilität und offene Kommunikation, um den Erfolg sicherzustellen.",
+    "hire_me": "Stellen Sie mich ein",
+    "download_cv": "Lebenslauf herunterladen",
+
+    "my_skills": "Meine Fähigkeiten",
+    "title_skills": "Welche Bereiche umfassen meine technischen Fähigkeiten in der Entwicklung?",
+    "skills_desc": "Hier sind die technischen Fähigkeiten und Entwicklungstools, die es mir ermöglichen, Konzepte in funktionale und intuitive Webanwendungen zu verwandeln, indem ich die Beherrschung von Programmiersprachen, modernen Frameworks und optimierten Entwicklungsumgebungen kombiniere.",
+    "skills_button": "Fähigkeiten",
+    "tools_button": "Werkzeuge",
+
+    "my_experiences": "Beruflich",
+    "experience_title": "Über 3 Jahre Erfahrung in der Branche mit starkem Engagement in persönlichen Projekten",
+    "experience_introduction": "Ich hatte die Möglichkeit, an verschiedenen Projekten zu arbeiten, hauptsächlich im Bereich von SaaS-Lösungen und Cloud-Diensten. Während dieser Erfahrungen war ich an verschiedenen Aufgaben und Verantwortlichkeiten beteiligt, von der Entwicklung spezifischer Funktionen bis zur Optimierung der Systemarchitektur. Diese Eintauchen ermöglichte es mir, ein solides Verständnis der technischen Herausforderungen und Best Practices zu gewinnen, die mit diesen dynamischen Umgebungen verbunden sind.",
+
+    "june_2023_present": "Juni 2023 - Gegenwart 2024",
+    "first_box_title": "Datenmanagement mit ETL",
+    "first_box_description": "Extraktion: \n Integration verschiedener Daten (CSV, SQL). \n Geplante und regelmäßige Datenextraktion. \n Vorverarbeitung zur Korrektur und Normalisierung von Formaten. \n \n Transformation: \n Anwendung komplexer Transformationen über Pipelines. \n Datenbereinigung und -anreicherung. \n Erstellung neuer Funktionen aus Rohdaten. \n \n Laden: \n Speicherung der Daten in einem zentralen Lager. \n Verfügbarkeit der Daten zur Analyse und Visualisierung.",
+    "techno": "Technologien",
+
+    "june_2022_june_2023": "Juni 2022 - Juni 2023",
+    "second_box_title": "Optimierung einer SaaS",
+    "second_box_description": "Verbesserung der Webanwendung zur Datenverwaltung, um die Effizienz und Genauigkeit der statistischen Erhebung zu steigern. Dieses Projekt zielt darauf ab, erweiterte Funktionen zu integrieren, um die Dateneingabe, -verarbeitung und -analyse zu erleichtern, während eine intuitive und benutzerfreundliche Oberfläche gewährleistet wird.",
+    "specifications": "Spezifikationen",
+    "specifications_descriptions": "Projektmanagement für Erhebung: Datenbank, Schnittstelle mit dem Kundensystem, Scheckbearbeitung, Marketing-Zielgruppe und Datenvisualisierung.",
+
+    "feb_2022_mai_2022": "Februar 2022 - Mai 2022",
+    "third_box_title": "Überarbeitung einer Dateneingabeschnittstelle",
+    "third_box_description": "Korrektur und Verbesserung eines Dateneingabetools, einschließlich erweiterter Validierungen, der Möglichkeit, Dateien zu importieren, exportierte verarbeitete Daten und Benutzerverwaltung mit Zugriffsrechten.",
+
+    "aug_2021_des_2021": "August 2021 - Dezember 2021",
+    "fourth_box_title": "Java-Entwickler",
+    "fourth_box_description": "Mobile Banking, native Android-Anwendung, verbessert die Zugänglichkeit und den Komfort von Bankdienstleistungen und ermöglicht es den Benutzern, ihre Finanzen jederzeit und überall zu verwalten.",
+    "characteristics": "Eigenschaften",
+
+    "my_education": "Mein Hintergrund",
+    "education_title": "Wie kann ein Bildungsweg zu technischer Exzellenz führen?",
+    "education_description": "Während meines Bildungsweges in der Informatik hatte ich die Gelegenheit, einen Masterabschluss an einer der besten Universitäten Europas zu erwerben, wo ich meine theoretischen und praktischen Kenntnisse vertiefte. Diese Erfahrung ermöglichte es mir, meine Anwendungsentwicklungsfähigkeiten zu stärken, während ich von einer soliden Informatikausbildung an lokalen Universitäten profitierte. Gleichzeitig erwarb ich eine strenge Grundlage in Mathematik, die für die Lösung komplexer Probleme und die Optimierung von Algorithmen unerlässlich ist, und bereitete mich darauf vor, die technischen Herausforderungen der Branche zu meistern.",
+
+    "education_first_box_title": "Universität Côte d'Azur",
+    "education_first_box_description": "Ingenieurwesen. Schwerpunkt Mobilität, Big Data und Systemintegration (MBDS)",
+
+    "license": "Lizenz",
+    "education_second_box_title": "IT-Universität",
+    "education_second_box_descirption": "Bachelor-Abschluss in Informationstechnologie. Spezialisierung auf Anwendungsentwicklung oder Programmierung.",
+
+    "academic": "Akademisch",
+    "education_third_box_title": "Fakultät für Mathematik",
+    "education_third_box_description": "Analyse, Algebra, Geometrie, Wahrscheinlichkeit und Statistik, Logik, Beweis, sowie Vektor- und Matrizenrechnung.",
+
+    "intensive_courses": "Intensivkurse",
+    "languages": "Sprachen",
+    "malagasy": "Malagasy (MG)",
+    "french": "Französisch (FR)",
+    "french_desc": "/ 2. Muttersprache",
+    "english": "Englisch (EN)",
+    "english_desc": "Berufliche Kenntnisse",
+    "german": "Deutsch (DE)",
+    "german_desc": "Anfänger",
+
+    "my_works": "Meine Arbeiten",
+    "my_works_title": "Innovative Lösungen, die Erwartungen übertreffen: Meine Projekte",
+    "my_works_introduction": "Entwerfen von außergewöhnlichen Websites, die Funktionalität und Ästhetik verbinden und eine langfristige Benutzerfreundlichkeit gewährleisten. Entwickeln einer sorgfältig gestalteten, klaren und gut dokumentierten Schnittstelle, die reibungslose und intuitive Interaktionen ermöglicht. Das Ziel ist es, elegante Lösungen zu schaffen, die den aktuellen Anforderungen der Kunden gerecht werden und sie auf die Zukunft vorbereiten.",
+    "load_more_work": "Mehr Arbeiten laden",
+    "recommandation_title": "Neugierig, was meine Kollegen über mich sagen? Hier sind ihre Gedanken!",
+    "recommandation_introduction": "Da ich nach neuen beruflichen Möglichkeiten suche, möchte ich Ihnen die Empfehlungen meiner Kollegen und Mentoren mitteilen. Ihr Feedback spiegelt meine Fähigkeiten, meine Arbeitsmoral und meine Fähigkeit wider, effektiv im Team zu arbeiten. Jede Empfehlung hebt eine einzigartige Erfahrung hervor und zeigt die Qualitäten, die mich zu einem idealen Kandidaten für eine Entwicklerposition machen.",
+    "recommandation_conclusion": "Sie können Empfehlungen auf LinkedIn hinzufügen",
+    "contact_title": "Haben Sie eine Idee oder ein Projekt? Lassen Sie mir gerne eine Nachricht zukommen!",
+    "contact_desc": "Für jegliche Unterstützung zögern Sie nicht, mich zu kontaktieren und mir mitzuteilen, wie ich Ihnen helfen kann. Füllen Sie das Formular aus, und ich werde Ihnen so schnell wie möglich antworten.",
+    "address": "Adresse:",
+    "phone": "Telefon:",
+    "phone_form": "Telefon (optional)",
+    "name": "Name",
+    "ex_name": "z.B. John Doe",
+    "ex_email": "z.B. john.doe@gmail.com",
+    "optional": "Telefonnummer",
+    "write_a_message": "Eine Nachricht schreiben",
+    "send": "Senden",
+    
+    "proundly":"Mit Leidenschaft gestaltet, angetrieben von Innovation"
+  },
+  "mg": {
+    "home": "Fandraisana.",
+    "about": "Momba.",
+    "skills": "Fahaiza-manao.",
+    "portfolio": "Portfolio.",
+    "contact": "Mifandraisa.",
+
+    "yo": "Miarahaba!",
+    "presentation": "Danih Stephane no anarako",
+    "engineer": "Injeniera",
+    "developer": "Mpamorona rindrambaiko",
+    "coder": "Mpandika kaody",
+    "get_in_touch": "Mifandraisa",
+
+    "years_of_experience": "Taonan'ny traikefa",
+    "completed_projects": "Tetikasa vita",
+    "happy_clients": "Mpanjifa faly",
+
+    "about_me": "Momba ahy",
+    "title_introduction": "Vahaolana amin'ny fampiharana vaovao? Aoka hataontsika tanteraka ny hevitrao!",
+    "introduction": "Salama 👨‍💻, Danih Stéphane Rakotoarison Harilanto no anarako, mpamorona rindrambaiko efa za-draharaha. Mahafinaritra ahy ny haitao fampahalalam-baovao, ary efa niasa tamin'ny tetikasa maro, anisan'izany ny vahaolana SaaS sy ny serivisy rahona. Ny fahaizako dia mandrakotra ny fampivoarana feno ary ny fiaraha-miasa amin'ny ekipa famoronana mba hanova hevitra ho vahaolana azo tanterahina. Na miasa irery na ao anaty ekipa, mifantoka amin'ny fitantanana tetikasa mahomby, ny fahamatorana, ary ny fifandraisana misokatra mba hahazoana antoka ny fahombiazana aho.",
+    "hire_me": "Miasa miaraka amiko",
+    "download_cv": "Sintomy ny CV",
+
+    "my_skills": "Ny fahaiza-manaoko",
+    "title_skills": "Inona avy ny faritra teknika amin'ny fahaiza-manaoko amin'ny fampivoarana?",
+    "skills_desc": "Ireto ambany ireto ny fahaiza-manao teknika sy fitaovana fampivoarana ahafahako manova hevitra ho lasa fampiharana tranonkala miasa tsara sy intuitive, miaraka amin'ny fahaiza-manaona programa, framework ankehitriny, ary tontolo iainana fampandrosoana voaomana tsara.",
+    "skills_button": "Fahaiza-manao",
+    "tools_button": "Fitaovana",
+
+    "my_experiences": "Asa matihanina",
+    "experience_title": "Mihoatra ny 3 taona niainana teo amin'ny indostria miaraka amin'ny fampidirana betsaka amin'ny tetikasa manokana",
+    "experience_introduction": "Nahazo fahafahana niasa tamin'ny tetikasa maro aho, indrindra amin'ny sehatry ny vahaolana SaaS sy ny serivisy rahona. Nandritra ireo traikefa ireo, nandray anjara tamin'ny asa sy andraikitra maro aho, manomboka amin'ny fampandrosoana endri-javatra manokana ka hatramin'ny fanatsarana ny rafitra. Izany traikefa izany dia nanome ahy fahatakarana matotra ny fanamby ara-teknika sy ny fomba fanao tsara indrindra mifandraika amin'ireo tontolo iainana mavitrika ireo.",
+
+    "june_2023_present": "Jona 2023 - Ankehitriny 2024",
+    "first_box_title": "Fitantanana Angona amin'ny ETL",
+    "first_box_description": "Fanangonana: \n Fampidirana angona maro (CSV, SQL). \n Fanangonana angona voalahatra sy mahazatra. \n Fanodinana mialoha hanitsiana sy hanatsarana ny endrika. \n \n Fanovana: \n Fampiharana fanovana sarotra amin'ny alalan'ny pipelines. \n Fanadiovana sy fampanan-karena ny angona. \n Famoronana endri-javatra vaovao avy amin'ny angona voalohany. \n \n Fanangonana: \n Fitahirizana ny angona ao amin'ny trano famakiam-boky afovoany. \n Fisian'ny angona ho an'ny famakafakana sy ny fijerena sary.",
+    "techno": "Teknolojia",
+
+    "june_2022_june_2023": "Jona 2022 - Jona 2023",
+    "second_box_title": "Fanatsarana SaaS",
+    "second_box_description": "Fanatsarana ny fampiharana tranonkala amin'ny fitantanana angona mba hampitomboana ny fahombiazan'ny fanangonana statistika sy ny fahamarinan'ny angona. Ity tetikasa ity dia mikendry ny hampiditra endri-javatra mandroso hanamora ny fidirana angona, ny fanodinana ary ny famakafakana raha miantoka ny fisian'ny endrika intuitive sy mora ampiasaina.",
+    "specifications": "Fepetra",
+    "specifications_descriptions": "Fitantanana tetikasa ho an'ny fanangonana: banky angona, fifandraisana amin'ny ekosistemam-panjifa, fanodinana sheky, fitadiavana mpanjifa amin'ny varotra ary fijerena angona amin'ny sary.",
+
+    "feb_2022_mai_2022": "Febroary 2022 - Mey 2022",
+    "third_box_title": "Fanamboarana ny Rafitra Fidirana Angona",
+    "third_box_description": "Fanamboarana sy fanatsarana ny fitaovana fidirana angona, manampy fanamarinana mandroso, fahafahana mampiditra rakitra, fanondranana ny angona voahodina, ary fitantanana mpampiasa miaraka amin'ny zo fidirana.",
+
+    "aug_2021_des_2021": "Aogositra 2021 - Desambra 2021",
+    "fourth_box_title": "Mpamorona Java",
+    "fourth_box_description": "Mobile Banking, fampiharana Android zanatany, manatsara ny fahafahana miditra sy ny fahafahan'ny serivisy ara-bola, mamela ny mpampiasa hitantana ny volany na aiza na aiza ary amin'ny fotoana rehetra.",
+    "characteristics": "Toetra",
+
+    "my_education": "Ny fianarako",
+    "education_title": "Ahoana no ahafahan'ny fianarana mitondra ho amin'ny zava-bita amin'ny teknolojia?",
+    "education_description": "Nandritra ny lalan'ny fianarako amin'ny fampandrosoana informatika, nahazo fahafahana hahazo mari-pahaizana master tao amin'ny iray amin'ireo oniversite tsara indrindra eto Eoropa aho, izay nianarako lalina ny fahaiza-manao ara-teorika sy ara-pratika. Ity traikefa ity dia nanampy ahy hanatsara ny fahaiza-manao fampivoarana fampiharana raha nankafy ny fanabeazana informatika matanjaka nentin'ny oniversite teo an-toerana. Mandritra izany fotoana izany, nahazo fototra mafy amin'ny matematika aho, izay ilaina amin'ny famahana olana sarotra sy ny fanatsarana ny algoritma, ka nanomana ahy hiatrika ny fanamby ara-teknika ao amin'ny indostria.",
+
+    "education_first_box_title": "Oniversiten'i Côte d'Azur",
+    "education_first_box_description": "Injeniera Informatika. Lalan'ny Mobility, Big Data, ary Fampidirana rafitra (MBDS)",
+
+    "license": "Fahazoan-dàlana",
+    "education_second_box_title": "Oniversite Informatika",
+    "education_second_box_descirption": "Mari-pahaizana licence amin'ny Teknolojia Fampahalalam-baovao. Nofantoka tamin'ny fampandrosoana fampiharana na fandaharana rindrambaiko.",
+
+    "academic": "Akademika",
+    "education_third_box_title": "Fakulten'ny Siansa Matematika",
+    "education_third_box_description": "Famakafakana, Algebra, Hira, Vinavina sy Antontan'isa, Logika, Porofon-kevitra, ary Calculus Vector sy Matrix.",
+
+    "intensive_courses": "Fampianarana Intensive",
+    "languages": "Fiteny",
+    "malagasy": "Malagasy (MG)",
+    "french": "Frantsay (FR)",
+    "french_desc": "/ Fiteny faharoa",
+    "english": "Anglisy (EN)",
+    "english_desc": "Fahaizana matihanina",
+    "german": "Alemaina (DE)",
+    "german_desc": "Vaovao",
+
+    "my_works": "Asako",
+    "my_works_title": "Vahaolana mahafinaritra manohitra ny andrasana: Tetikasa nataoko",
+    "my_works_introduction": "Mamolavola tranonkala miavaka mampifandray ny fiasa sy ny endrika, manome antoka ny fampiasana maharitra ho an'ny mpampiasa. Mamolavola interface tsara voalamina tsara sy tsara ara-drafitra, miantoka fifanakalozan-kevitra malefaka sy intuitive. Ny tanjona dia ny hamorona vahaolana mahafinaritra mifanaraka amin'ny filan'ny mpanjifa ankehitriny ary manomana azy ireo amin'ny ho avy.",
+    "load_more_work": "Asehoy tetikasa hafa",
+    "recommandation_title": "Manontany tena ny amin'izay lazain'ny mpiara-miasa amiko momba ahy? Ireto ny hevitr'izy ireo!",
+    "recommandation_introduction": "Satria mitady fahafahana matihanina vaovao aho, tiako ny hizara aminao ny fanamarihana avy amin'ny mpiara-miasa sy mpanolo-tsaina ahy. Ny valiny dia maneho ny fahaizako, ny etikan'ny asa ary ny fahaizako miasa amin'ny ekipa. Ny fanamarinana tsirairay dia manasongadina traikefa tokana, mampiseho ny toetra mampiavaka ahy ho kandidà tonga lafatra ho an'ny toeran'ny mpamorona rindrambaiko.",
+    "recommandation_conclusion": "Afaka manampy fanamarihana ao amin'ny LinkedIn ianao",
+    "contact_title": "Manana hevitra sa tetikasa ve ianao? Aza misalasala mamela hafatra!",
+    "contact_desc": "Raha mila fanampiana ianao, aza misalasala mifandray amiko ary ampahafantaro ahy ny fomba hanampiana anao. Fenoy ny taratasy ary hamerina valiny aminao faran'izay haingana aho.",
+    "address": "Adiresy:",
+    "phone": "Telefaonina:",
+    "phone_form": "Telefaonina (Safidy)",
+    "name": "Anarana",
+    "ex_name": "oh: John Doe",
+    "ex_email": "oh: john.doe@gmail.com",
+    "optional": "Laharan-telefaonina",
+    "write_a_message": "Manorata Hafatra",
+    "send": "Alefaso",
+    
+    "proundly":"Namorona tamin'ny fitiavana, Natao miaraka amin'ny fanavaozana"
   }
 };
 
@@ -271,7 +471,8 @@ function changeFlag(lang) {
 const translationsTyped = {
   "fr": ["Ingénieur", "Développeur", "Codeur"],
   "en": ["Engineer", "Developer", "Coder"],
-  "mg": ["Injeniera", "Mpampianatra", "Kodiarana"] // Exemple en malgache
+  "de": ["Ingenieur", "Entwickler", "Programmierer"],
+  "mg": ["Injeniera", "Mpamorona", "Mpikirakira kaody"]
 };
 
 let typed; // Variable pour stocker l'instance de Typed.js
@@ -312,7 +513,19 @@ const translationsEducation = {
       autoType5: ["J’ai eu l’opportunité de travailler sur divers projets, principalement dans le domaine des solutions SaaS et des services cloud. Au cours de ces expériences, j'ai été impliqué dans plusieurs tâches et responsabilités, allant du développement de fonctionnalités spécifiques à l'optimisation de l'architecture des systèmes. Cette immersion m'a permis d'acquérir une solide compréhension des défis techniques et des meilleures pratiques associés à ces environnements dynamiques."],
       autoType6: ["Éducation"],
       autoType7: ["Au cours de mon parcours scolaire en développement informatique, j'ai eu l'opportunité d'obtenir une maîtrise dans l'une des meilleures universités d'Europe, où j'ai approfondi mes connaissances théoriques et pratiques. Cette expérience m'a permis de renforcer mes compétences en développement d'applications, tout en bénéficiant d'une solide formation en informatique dispensée par des universités locales. Parallèlement, j'ai acquis une base rigoureuse en mathématiques, essentielle pour la résolution de problèmes complexes et l'optimisation des algorithmes, me préparant ainsi à relever les défis techniques du secteur."],
-  }
+  },
+  de: {
+      autoType4: ["Erfahrung"],
+      autoType5: ["Ich hatte die Gelegenheit, an verschiedenen Projekten zu arbeiten, hauptsächlich im Bereich SaaS-Lösungen und Cloud-Dienste. Während dieser Erfahrungen war ich an mehreren Aufgaben und Verantwortlichkeiten beteiligt, von der Entwicklung spezifischer Funktionen bis hin zur Optimierung der Systemarchitektur. Diese Eintauchen ermöglichte es mir, ein solides Verständnis der technischen Herausforderungen und bewährten Verfahren in diesen dynamischen Umgebungen zu erlangen."],
+      autoType6: ["Ausbildung"],
+      autoType7: ["Während meiner Ausbildung in der Computerentwicklung hatte ich die Möglichkeit, einen Master-Abschluss an einer der besten Universitäten Europas zu erwerben, wo ich mein theoretisches und praktisches Wissen vertiefte. Diese Erfahrung ermöglichte es mir, meine Fähigkeiten in der Anwendungsentwicklung zu stärken, während ich von einer soliden Informatikausbildung profitierte, die von lokalen Universitäten angeboten wurde. Gleichzeitig erwarb ich eine strenge Grundlage in Mathematik, die wesentlich ist, um komplexe Probleme zu lösen und Algorithmen zu optimieren, und die mich darauf vorbereitete, die technischen Herausforderungen der Branche zu bewältigen."]
+    },
+    mg: {
+      autoType4: ["Traikefa"],
+      autoType5: ["Nanana fahafahana niasa tamin'ny tetikasa maro aho, indrindra fa teo amin'ny sehatry ny vahaolana SaaS sy ny tolotra rahona. Tamin'ireo traikefa ireo dia nandray anjara tamin'ny asa sy andraikitra maro aho, manomboka amin'ny fampivoarana ny endri-javatra manokana ka hatramin'ny fanatsarana ny rafitra. Ity fampidirana ity dia nanome ahy fahatakarana matanjaka momba ny fanamby ara-teknika sy ny fomba fanao tsara indrindra mifandraika amin'ireo tontolo mavitrika ireo."],
+      autoType6: ["Fampianarana"],
+      autoType7: ["Nandritra ny làlan'ny fianarako momba ny fampandrosoana informatika, dia nanana fahafahana nahazo mari-pahaizana Master avy amin'ny iray amin'ireo oniversite tsara indrindra any Eoropa aho, izay nampitomboako ny fahalalako ara-teorika sy azo ampiharina. Ity traikefa ity dia nanampy ahy hanatsara ny fahaizako amin'ny fampandrosoana fampiharana, sady nahazo tombony avy amin'ny fampianarana informatika matanjaka nomen'ny oniversite eto an-toerana. Mandritra izany fotoana izany dia nahazo fanabeazana hentitra amin'ny matematika aho, izay ilaina amin'ny famahana olana sarotra sy fanatsarana algorithma, ka nanomana ahy hiatrika ireo fanamby ara-teknika eo amin'ny sehatry ny indostria."]
+    }
 };
 
 function startTyped(element, strings, speed) {
