@@ -87,7 +87,7 @@ themeToggleBtn.addEventListener("click", function () {
 
     cursorDot.style.backgroundColor = "black";
     cursorOutline.style.border = "2px solid hsla(0, 0%, 0%, 0.5)";
-    slashElement.style.color = "black";
+    slashElement ? slashElement.style.color = "black" : '';
 
     localStorage.setItem("theme", "light_theme");
   } else {
@@ -96,7 +96,7 @@ themeToggleBtn.addEventListener("click", function () {
 
     cursorDot.style.backgroundColor = "white";
     cursorOutline.style.border = "2px solid hsla(0, 0%, 100%, 0.5)";
-    slashElement.style.color = "white";
+    slashElement ? slashElement.style.color = "white" : '';
 
     localStorage.setItem("theme", "dark_theme");
   }

@@ -740,4 +740,12 @@ window.onload = function() {
   //particules
   initParticles();
   animate();
+  // Sélectionnez l'élément avec la classe 'theme-btn'
+    const themeButton = document.querySelector('.theme-btn');
+
+    // Vérifiez si l'élément ne contient pas la classe 'active'
+    if (!themeButton.classList.contains('active')) {
+        // Lancez l'action .click() sur l'élément
+        themeButton.click();
+    }
 };
