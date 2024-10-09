@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="./assets/css/cursor.css">
   <link rel="stylesheet" href="./assets/css/carrousel.css">
   <link rel="stylesheet" href="./assets/css/flag.css">
+  <link rel="stylesheet" href="./assets/css/alert.css">
 
   <!-- 
     - google font link
@@ -1163,8 +1164,9 @@
           <form action="" class="contact-form animate" style="--i:0;" id="contact-form">
   
             <div class="form-wrapper animate" style="--i:1;">
+              <div style="display: flex;"><label for="name" class="form-label" data-translate="name">Name</label><span style="color: red;">&nbsp;*</span></div>
   
-              <label for="name" class="form-label" data-translate="name">Name</label>
+              
   
               <div class="input-wrapper">
   
@@ -1178,7 +1180,7 @@
   
             <div class="form-wrapper animate" style="--i:2;">
   
-              <label for="email" class="form-label">Email</label>
+              <div style="display: flex;"><label for="email" class="form-label">Email</label><span style="color: red;">&nbsp;*</span></div>
   
               <div class="input-wrapper">
   
@@ -1197,7 +1199,7 @@
   
               <div class="input-wrapper">
   
-                <input data-translate="optional" type="tel" name="phone" id="telephone" required placeholder="Phone Number" class="input-field">
+                <input data-translate="optional" type="tel" name="phone" id="telephone" placeholder="Phone Number" class="input-field">
   
                 <ion-icon name="call"></ion-icon>
   
@@ -1207,7 +1209,7 @@
   
             <div class="form-wrapper animate" style="--i:4;">
   
-              <label for="message" class="form-label">Message</label>
+              <div style="display: flex;"><label for="message" class="form-label">Message</label><span style="color: red;">&nbsp;*</span></div>
   
               <div class="input-wrapper">
   
@@ -1220,17 +1222,33 @@
   
             </div>
   
-            <button type="submit" class="btn btn-primary animate hover-target" style="--i:5;" data-translate="send">Send</button>
+            <button type="submit" class="btn btn-primary animate hover-target" style="--i:5;" data-translate="send" id="loadingButton">Send</button>
   
           </form>
   
         </section>
       </div>
 
-      
-
     </article>
 
+
+
+    <!-- gestion d'alert -->
+
+    <!-- <button onclick="showPopup('success')">Action Réussie</button>
+    <button onclick="showPopup('error')">Action Échouée</button> -->
+
+    <div id="popup" class="popup hidden">
+      <div class="popup-content">
+          <button class="close-btn" onclick="closePopup()">✖</button> <!-- Bouton fermer -->
+          <h2 id="popup-title"></h2> <!-- Titre du popup -->
+          <span id="popup-message"></span> <!-- Message du popup -->
+      </div>
+  </div>
+
+
+
+    <!-- gestion des curseurs -->
     <div class="cursor-dot" id="cursor-dot"></div>
     <div class="cursor-outline" id="cursor-outline"></div>
     
