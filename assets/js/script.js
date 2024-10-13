@@ -207,3 +207,35 @@ function animate() {
   drawSymbols();
   requestAnimationFrame(animate);
 }
+
+//Gestion popup image
+const popup = document.getElementById('popup');
+const closeBtn = document.getElementById('closeBtn');
+const popupImage = document.getElementById('popupImage');
+const popupDescription = document.getElementById('popupDescription');
+
+// Ouvrir le popup pour chaque image
+document.querySelectorAll('.popup-image').forEach((image) => {
+    image.addEventListener('click', () => {
+        const imageSrc = image.src;
+        const description = image.getAttribute('data-description'); // Récupérer la description
+
+        popup.style.display = 'flex';
+        popupImage.src = imageSrc; // Mettre à jour l'image du popup
+        popupDescription.textContent = description; // Mettre à jour la description
+    });
+});
+
+// Fermer le popup
+closeBtn.addEventListener('click', () => {
+    popup.style.display = 'none';
+});
+
+// Fermer le popup si on clique en dehors de l'image
+popup.addEventListener('click', (e) => {
+  if (e.target === popup) {
+      popup.style.display = 'none'; // Masquer le popup
+      e.preventDefault(); // Empêche le rechargement de la page
+  }
+});
+

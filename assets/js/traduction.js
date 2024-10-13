@@ -47,7 +47,7 @@ const translations = {
     "feb_2022_mai_2022": "Fébr. 2022 - mai 2022",
     "third_box_title": "Révision d'une Interface de Saisie de Données",
     "third_box_description": "Correction et amélioration d'un outil de saisie de données, intégrant des validations avancées, la possibilité d'importer des fichiers, l'exportation des données traitées, et la gestion des utilisateurs avec des droits d'accès.",
-    
+    "technical":"Référentiels techniques",
     "aug_2021_des_2021": "Août 2021 - Déc 2021",
     "fourth_box_title": "Développeur Java",
     "fourth_box_description": "Mobile Banking, application android native, améliore l'accessibilité et la commodité des services bancaires, permettant aux utilisateurs de gérer leurs finances à tout moment et de n'importe où.",
@@ -184,7 +184,7 @@ const translations = {
     "feb_2022_mai_2022": "Feb 2022 - May 2022",
     "third_box_title": "Revision of a Data Entry Interface",
     "third_box_description": "Correction and improvement of a data entry tool, incorporating advanced validations, the ability to import files, export of processed data, and user management with access rights.",
-
+    "technical":"Technical references",
     "aug_2021_des_2021": "Aug 2021 - Dec 2021",
     "fourth_box_title": "Java Developer",
     "fourth_box_description": "Mobile Banking, native Android application, enhances accessibility and convenience of banking services, allowing users to manage their finances anytime and anywhere.",
@@ -321,7 +321,7 @@ const translations = {
     "feb_2022_mai_2022": "Februar 2022 - Mai 2022",
     "third_box_title": "Überarbeitung einer Dateneingabeschnittstelle",
     "third_box_description": "Korrektur und Verbesserung eines Dateneingabetools, einschließlich erweiterter Validierungen, der Möglichkeit, Dateien zu importieren, exportierte verarbeitete Daten und Benutzerverwaltung mit Zugriffsrechten.",
-
+    "technical":"Technische Referenzen",
     "aug_2021_des_2021": "August 2021 - Dezember 2021",
     "fourth_box_title": "Java-Entwickler",
     "fourth_box_description": "Mobile Banking, native Android-Anwendung, verbessert die Zugänglichkeit und den Komfort von Bankdienstleistungen und ermöglicht es den Benutzern, ihre Finanzen jederzeit und überall zu verwalten.",
@@ -458,7 +458,7 @@ const translations = {
     "feb_2022_mai_2022": "Febroary 2022 - Mey 2022",
     "third_box_title": "Fanamboarana ny Rafitra Fidirana Angona",
     "third_box_description": "Fanamboarana sy fanatsarana ny fitaovana fidirana angona, manampy fanamarinana mandroso, fahafahana mampiditra rakitra, fanondranana ny angona voahodina, ary fitantanana mpampiasa miaraka amin'ny zo fidirana.",
-
+    "technical":"Loharano ara-teknika",
     "aug_2021_des_2021": "Aogositra 2021 - Desambra 2021",
     "fourth_box_title": "Mpamorona Java",
     "fourth_box_description": "Mobile Banking, fampiharana Android zanatany, manatsara ny fahafahana miditra sy ny fahafahan'ny serivisy ara-bola, mamela ny mpampiasa hitantana ny volany na aiza na aiza ary amin'ny fotoana rehetra.",
