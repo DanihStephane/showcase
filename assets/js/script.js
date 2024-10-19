@@ -80,6 +80,7 @@ themeToggleBtn.addEventListener("click", function () {
   const cursorOutline = document.getElementById("cursor-outline");
 
   const slashElement = document.getElementById("slash");
+  const companyYear = document.querySelectorAll('.company__year');
 
   if (themeToggleBtn.classList.contains("active")) {
     document.body.classList.remove("dark_theme");
@@ -88,6 +89,9 @@ themeToggleBtn.addEventListener("click", function () {
     cursorDot.style.backgroundColor = "black";
     cursorOutline.style.border = "2px solid hsla(0, 0%, 0%, 0.5)";
     slashElement ? slashElement.style.color = "black" : '';
+    companyYear.forEach(element => {
+      element.style.color = "#525252"; // Remplace 'red' par la couleur souhaitée
+    });
 
     localStorage.setItem("theme", "light_theme");
   } else {
@@ -97,6 +101,9 @@ themeToggleBtn.addEventListener("click", function () {
     cursorDot.style.backgroundColor = "white";
     cursorOutline.style.border = "2px solid hsla(0, 0%, 100%, 0.5)";
     slashElement ? slashElement.style.color = "white" : '';
+    companyYear.forEach(element => {
+      element.style.color = "white"; // Remplace 'red' par la couleur souhaitée
+    });
 
     localStorage.setItem("theme", "dark_theme");
   }
@@ -209,7 +216,7 @@ function animate() {
 }
 
 //Gestion popup image
-const popup = document.getElementById('popup');
+const popup = document.getElementById('popupImageParent');
 const closeBtn = document.getElementById('closeBtn');
 const popupImage = document.getElementById('popupImage');
 const popupDescription = document.getElementById('popupDescription');

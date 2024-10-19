@@ -1,4 +1,4 @@
-.popup {
+.popupImageParent {
     display: none; /* Caché par défaut */
     position: fixed;
     z-index: 1000;

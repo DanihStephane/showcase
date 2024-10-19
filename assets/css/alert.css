@@ -58,3 +58,9 @@ h2 {
 #popup-message {
     white-space: pre-line; /* Interprète les sauts de ligne */
 }
+
+.popup-content img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}

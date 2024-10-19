@@ -8,7 +8,9 @@
 }
 
 .experience .subtitle {
-  color: #818080;
+   background: linear-gradient(90deg,#00dbde,#ef86f1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .experience__text {

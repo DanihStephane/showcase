@@ -67,10 +67,7 @@ function showPopup(type) {
 function closePopup() {
     const popup = document.getElementById('popup');
     popup.classList.add('hidden');
-     // Recharge la page après une courte pause
-     setTimeout(() => {
-        location.reload(); // Recharge la page
-    }, 300); // Délai de 300 millisecondes (0.3 secondes)
+    document.getElementById("contact-form").reset();
 }
 
 // Écouteur d'événements pour fermer le popup en cliquant en dehors
@@ -154,14 +151,14 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         message: message
     }).then(function(response) {
         console.log("Email envoyé avec succès!", response.status);
-        stopLoading();
         // alert("Votre message a été envoyé !");
         showPopup('success');
+        stopLoading();
     }, function(error) {
         console.log("Erreur lors de l'envoi de l'e-mail", error);
         // alert("Une erreur est survenue. Veuillez réessayer.");
-        stopLoading();
         showPopup('error');
+        stopLoading();
     });
    
 });
