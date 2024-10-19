@@ -16,26 +16,24 @@ let transform = 0;
 let lastPageX = 0;
 let transformValue = 0;
 
-
 right.addEventListener('click', function () {
-    console.log(babaWidth);
-    console.log(sumOfRight);
-    console.log(track.offsetWidth);
-    console.log(((sumOfRight + babaWidth) < track.offsetWidth) );
-
     track.classList.add('smooth-transition');
     index++;
     left.classList.add('show');
-    sumOfRight = sumOfRight + carouselWidth;
+    sumOfRight += carouselWidth;
 
-    if ((sumOfRight + carouselWidth) < track.offsetWidth) {
-        track.style.transform = track.style.transform + `translate(-${carouselWidth}px)`;
+    // Vérifie si on est à la fin du carrousel
+    if ((sumOfRight + carouselWidth) >= track.offsetWidth) {
+        // Reviens au début (boucle)
+        track.style.transform = `translate(0px)`;
+        sumOfRight = 0;
+        index = 0;
     } else {
-        track.style.transform = `translate(-${track.offsetWidth - carouselWidth}px)`;
+        track.style.transform = `translateX(-${sumOfRight}px)`;
     }
 
+    // Gérer le cas où on arrive à la fin du carrousel
     if (track.offsetWidth - (index * carouselWidth) < carouselWidth) {
-        // right.classList.add('hide');
         right.classList.add('lock');
     }
 });
@@ -44,45 +42,45 @@ left.addEventListener('click', function () {
     track.classList.add('smooth-transition');
     sumOfLeft = sumOfRight - carouselWidth;
 
-    if (sumOfLeft >= carouselWidth) {
-        track.style.transform = track.style.transform + `translate(${carouselWidth}px)`;
+    // Vérifie si on est au début du carrousel
+    if (sumOfLeft < 0) {
+        // Reviens à la fin (boucle)
+        sumOfRight = track.offsetWidth - carouselWidth;
+        track.style.transform = `translateX(-${sumOfRight}px)`;
+        index = Math.floor(track.offsetWidth / carouselWidth) - 1;
     } else {
-        track.style.transform = `translate(-${0}px)`;
+        track.style.transform = `translateX(-${sumOfLeft}px)`;
+        sumOfRight -= carouselWidth;
+        index--;
     }
-    index--;
-    // right.classList.remove('hide');
+
     right.classList.remove('lock');
-    sumOfRight -= carouselWidth;
+
     if (index === 0) {
         left.classList.remove('show');
     }
-
+    stopAutoScroll(); // Arrêter l'auto-défilement
 });
 
-
-
-
-const gestureStart =  (e) => {
-   initialPosition = e.pageX;
-   moving = true;
-   const transformMatrix = window.getComputedStyle(track).getPropertyValue('transform');
-   if (transformMatrix !== 'none') {
-       transform = parseInt(transformMatrix.split(',')[4].trim());
-   }
+const gestureStart = (e) => {
+    initialPosition = e.pageX;
+    moving = true;
+    const transformMatrix = window.getComputedStyle(track).getPropertyValue('transform');
+    if (transformMatrix !== 'none') {
+        transform = parseInt(transformMatrix.split(',')[4].trim());
+    }
 };
 
 const gestureMove = (e) => {
     track.classList.remove('smooth-transition');
     if (moving) {
-
-        // const currentPosition = e.pageX;
         const diff = e.pageX - initialPosition;
         if (e.pageX - lastPageX > 0) {
             if (transformValue > 0) {
                 return;
             }
         } else {
-            if (Math.abs(transformValue) > track.offsetWidth - carousel.offsetWidth ) {
+            if (Math.abs(transformValue) > track.offsetWidth - carousel.offsetWidth) {
                 return;
             }
         }
@@ -92,30 +90,34 @@ const gestureMove = (e) => {
     lastPageX = e.pageX;
 };
 
-const gestureEnd =  (e) => {
+const gestureEnd = (e) => {
     moving = false;
-    console.log(carousel.offsetWidth);
 };
 
-
 if (window.PointerEvent) {
-
     carousel.addEventListener('pointerdown', gestureStart);
-
     carousel.addEventListener('pointermove', gestureMove);
-
-    carousel.addEventListener('pointerup',gestureEnd);
+    carousel.addEventListener('pointerup', gestureEnd);
 } else {
-
     carousel.addEventListener('touchdown', gestureStart);
-
     carousel.addEventListener('touchmove', gestureMove);
-
-    carousel.addEventListener('touchup',gestureEnd);
-
+    carousel.addEventListener('touchup', gestureEnd);
     carousel.addEventListener('mousedown', gestureStart);
-
     carousel.addEventListener('mousemove', gestureMove);
-
-    carousel.addEventListener('mouseup',gestureEnd);
+    carousel.addEventListener('mouseup', gestureEnd);
 }
+
+let autoScrollInterval;
+
+const autoScrollNext = () => {
+    autoScrollInterval = setInterval(() => {
+        right.click(); // Simuler un clic sur le bouton "next"
+    }, 2000); // Toutes les 2 secondes
+};
+
+const stopAutoScroll = () => {
+    clearInterval(autoScrollInterval); // Stopper le défilement
+};
+
+// Initialiser le défilement automatique au chargement
+autoScrollNext();

@@ -51,7 +51,7 @@
     transition: all 1s;
 }
 .carousel .track .card {
-    width: 800px;
+    width: 900px;
     height: auto;
     /* background: #cccccc; */
     border-radius: 5px;
