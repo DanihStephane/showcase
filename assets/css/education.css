@@ -25,8 +25,9 @@
 }
 
 .education .subtitle {
+  color: #ffffff;
   max-width: 5ch;
-  background: linear-gradient(90deg,#00dbde,#946f95);
+  background: linear-gradient(90deg,#00dbde,#fc00ff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }

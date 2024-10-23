@@ -221,17 +221,20 @@ const closeBtn = document.getElementById('closeBtn');
 const popupImage = document.getElementById('popupImage');
 const popupDescription = document.getElementById('popupDescription');
 
+
+// Ouvrir le popup pour chaque image
 // Ouvrir le popup pour chaque image
 document.querySelectorAll('.popup-image').forEach((image) => {
-    image.addEventListener('click', () => {
-        const imageSrc = image.src;
-        const description = image.getAttribute('data-description'); // Récupérer la description
+  image.addEventListener('click', () => {
+      const imageSrc = image.src;
+      const description = image.nextElementSibling.textContent; // Récupérer le texte du prochain élément (la description)
 
-        popup.style.display = 'flex';
-        popupImage.src = imageSrc; // Mettre à jour l'image du popup
-        popupDescription.textContent = description; // Mettre à jour la description
-    });
+      popup.style.display = 'flex';
+      popupImage.src = imageSrc; // Mettre à jour l'image du popup
+      popupDescription.textContent = description; // Mettre à jour la description
+  });
 });
+
 
 // Fermer le popup
 closeBtn.addEventListener('click', () => {
