@@ -86,6 +86,7 @@
 @media screen and (max-width: 800px) {
   .experience {
     grid-template-columns: 1fr;
+    padding: 6rem 2rem;
     gap: 4rem;
   }
 
@@ -105,7 +106,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .company {
     grid-template-columns: 1fr;
   }
