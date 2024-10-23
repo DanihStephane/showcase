@@ -1351,7 +1351,7 @@ textarea.input-field {
   display: block;
   top: 0px;
   left: 0px;
-  z-index: 0;
+  z-index: -1;
   height: 100vh;
   width: 100%;
 }
@@ -1387,4 +1387,11 @@ textarea.input-field {
   padding: 20px;
   border-radius: var(--radius-12);
   box-shadow: var(--shadow-1);
+}
+
+
+@media (max-width: 453px) {
+  .logo a {
+    font-size: 25px;
+  }
 }
