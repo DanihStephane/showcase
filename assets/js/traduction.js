@@ -108,8 +108,8 @@ const translations = {
 
     "recommandation_name2": "ZAFIMANANGA Josio Rigonolde · 1er",
     "recommandation_post2": "Développeur PHP (Symfony, WordPress, ...) / ReactJs",
-    "recommandation_date2": "ZAFIMANANGA travaillait avec Danih Stephane dans la même équipe",
-    "recommandation_function2": "Mis en ligne le : 23 septembre 2024",
+    "recommandation_date2": "Mis en ligne le : 23 septembre 2024",
+    "recommandation_function2": "ZAFIMANANGA travaillait avec Danih Stephane dans la même équipe",
     "recommandation_desc2": "J'ai eu le plaisir de collaborer étroitement avec Danih qui a su démontrer une persévérance dans chaque mission qui lui a été confié. Même face à des défis et témoigne une grande détermination. \n Au sein de notre équipe chez eTech, il s'est rapidement adapté aux processus et aux outils de développement en place. Sa capacité à s'intégrer facilement dans un environnement en constante évolution est une qualité précieuse qui lui permet de contribuer efficacement aux projets collectifs. \n Danih a rapidement trouvé sa place au sein de notre équipe grâce à son excellent esprit d'équipe. Toujours prêt à collaborer et à partager ses idées, il a su apporter une énergie positive qui a renforcé la dynamique de groupe. \n Il s'intéresse constamment à l'amélioration de ses compétences, ce qui lui permet de progresser rapidement et de contribuer de manière significative à chaque projet.",
 
     "recommandation_name3": "Njaratiana Herivola RAZAFINDRABE · 1er",
@@ -277,8 +277,8 @@ const translations = {
 
     "recommandation_name2": "ZAFIMANANGA Josio Rigonolde · 1st",
     "recommandation_post2": "PHP Developer (Symfony, WordPress, ...) / ReactJs",
-    "recommandation_date2": "ZAFIMANANGA worked with Danih Stephane in the same team",
-    "recommandation_function2": "Posted on: September 23, 2024",
+    "recommandation_date2": "Posted on: September 23, 2024",
+    "recommandation_function2": "ZAFIMANANGA worked with Danih Stephane in the same team",
     "recommandation_desc2": "I had the pleasure of closely collaborating with Danih, who demonstrated perseverance in every task assigned to him. Even in the face of challenges, he showed great determination. \n Within our team at eTech, he quickly adapted to the processes and development tools in place. His ability to easily integrate into a constantly evolving environment is a valuable quality that allows him to contribute effectively to collective projects. \n Danih quickly found his place within our team thanks to his excellent team spirit. Always ready to collaborate and share his ideas, he brought positive energy that strengthened the group dynamic. \n He is constantly interested in improving his skills, which enables him to progress rapidly and contribute significantly to each project.",
 
     "recommandation_name3": "Njaratiana Herivola RAZAFINDRABE · 1st",
@@ -442,8 +442,8 @@ const translations = {
 
     "recommandation_name2": "ZAFIMANANGA Josio Rigonolde · 1.",
     "recommandation_post2": "PHP-Entwickler (Symfony, WordPress, ...) / ReactJs",
-    "recommandation_date2": "ZAFIMANANGA arbeitete mit Danih Stephane im selben Team",
-    "recommandation_function2": "Veröffentlicht am: 23. September 2024",
+    "recommandation_date2": "Veröffentlicht am: 23. September 2024",
+    "recommandation_function2": "ZAFIMANANGA arbeitete mit Danih Stephane im selben Team",
     "recommandation_desc2": "Ich hatte das Vergnügen, eng mit Danih zusammenzuarbeiten, der bei jeder ihm übertragenen Aufgabe Durchhaltevermögen bewiesen hat. Selbst angesichts von Herausforderungen zeigte er große Entschlossenheit. \n Innerhalb unseres Teams bei eTech passte er sich schnell an die bestehenden Prozesse und Entwicklungstools an. Seine Fähigkeit, sich leicht in ein sich ständig wandelndes Umfeld zu integrieren, ist eine wertvolle Eigenschaft, die es ihm ermöglicht, effektiv zu kollektiven Projekten beizutragen. \n Danih fand dank seines hervorragenden Teamgeistes schnell seinen Platz in unserem Team. Immer bereit zur Zusammenarbeit und zum Austausch von Ideen, brachte er eine positive Energie ein, die die Gruppendynamik stärkte. \n Er ist ständig bestrebt, seine Fähigkeiten zu verbessern, was es ihm ermöglicht, schnell voranzukommen und bedeutende Beiträge zu jedem Projekt zu leisten.",
 
     "recommandation_name3": "Njaratiana Herivola RAZAFINDRABE · 1.",
@@ -611,8 +611,8 @@ const translations = {
 
     "recommandation_name2": "ZAFIMANANGA Josio Rigonolde · 1.",
     "recommandation_post2": "Mpanamboatra PHP (Symfony, WordPress, ...) / ReactJs",
-    "recommandation_date2": "ZAFIMANANGA niara-niasa tamin'i Danih Stephane tao amin'ny ekipa iray",
-    "recommandation_function2": "Navoaka tamin'ny: 23 septambra 2024",
+    "recommandation_date2": "Navoaka tamin'ny: 23 septambra 2024",
+    "recommandation_function2": "ZAFIMANANGA niara-niasa tamin'i Danih Stephane tao amin'ny ekipa iray",
     "recommandation_desc2": "Nahafinaritra ny niara-niasa akaiky tamin'i Danih izay naneho faharetana tamin'ny asa rehetra napetraka taminy. Na dia teo aza ny fanamby, dia nasehony hatrany ny fahavononana lehibe. \n Tao amin'ny ekipanay tao eTech, dia nanaraka haingana ny dingana sy ny fitaovana fampandrosoana napetraka izy. Ny fahaizany mifanaraka mora amin'ny tontolo miovaova dia toetra sarobidy izay mamela azy handray anjara amim-pahombiazana amin'ny tetikasa iombonana. \n Nandray ny toerany haingana tao anatin'ny ekipanay i Danih noho ny fanahiny tsara amin'ny fiaraha-miasa. Vonona hatrany hifanampy sy hizara ny heviny, dia nahatonga fiakarana tsara ho an'ny dinamikan'ny ekipa izy. \n Liana hatrany amin'ny fanatsarana ny fahaizany izy, izay mamela azy hivoatra haingana ary handray anjara lehibe amin'ny tetikasa tsirairay.",
 
     "recommandation_name3": "Njaratiana Herivola RAZAFINDRABE · 1.",
